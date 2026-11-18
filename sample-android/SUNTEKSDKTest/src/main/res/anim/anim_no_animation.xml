@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="200"> <!-- 持续时间建议与进入动画匹配 -->
+    <!-- 此动画保持页面完全不变 -->
+    <alpha
+        android:fromAlpha="1.0"
+        android:toAlpha="1.0" />
+</set>

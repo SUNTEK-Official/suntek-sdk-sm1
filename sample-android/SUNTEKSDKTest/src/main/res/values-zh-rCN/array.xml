@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   主菜单 -->
+    <string-array name="SERVICE_LIST">
+        <item>系统服务</item>
+    </string-array>
+    <string-array name="ALL_SERVICE_LIST">
+        <item>系统服务</item>
+        <item>卡服务</item>
+        <item>打印机服务</item>
+
+        <item>PinPad服务</item>
+        <item>Qrcode/QrScan</item>
+        <item>Sam Card Test</item>
+
+        <item>TR31 API</item>
+        <item>DUKPT API</item>
+        <item>压力测试</item>
+    </string-array>
+
+    <string-array name="ALL_MTK_SERVICE_LIST">
+        <item>系统服务</item>
+        <item>副屏服务</item>
+        <item>卡服务</item>
+        <item>打印机服务</item>
+        <item>Loads key 服务</item>
+        <item>Qrcode/QrScan</item>
+        <item>Sam Card Test</item>
+        <item>MTK Test</item>
+        <item>EmvKernel Test</item>
+        <item>AidActivity</item>
+        <item>CapkActivity</item>
+        <item>TR31 API</item>
+        <item>DUKPT API</item>
+        <item>压力测试</item>
+        <item>SSL API</item>
+        <item>About Permision</item>
+        <item>CMAC API</item>
+        <item> Physical Keyboard test</item>
+        <!--<item>VoiceRecognition</item>-->
+
+
+
+        <!--        <item>SIM Card</item>-->
+       <!-- <item> APN </item>-->
+    </string-array>
+    <!--  系統服务  -->
+    <string-array name="SYSTEM_SERVICE_LIST">
+        <item>读取通讯库版本</item>
+        <item>读取SP版本</item>
+        <item>蜂鸣器测试</item>
+        <item>打开RF灯</item>
+        <item>关闭RF灯</item>
+        <!--        <item>固件更新测试</item>-->
+        <item>重置SP</item>
+        <item>获取SN</item>
+        <item>获取TUSN</item>
+        <!--<item>设置SN</item>
+        <item>设置TUSN</item>-->
+    </string-array>
+    <string-array name="AID_BUTTON_LIST">
+        <item> SDKTest ADD IC  </item>
+        <item> SDKTest QUery IC  </item>
+        <item> SDKTest DEL IC  </item>
+        <item> ***************  </item>
+        <item> SDKTest ADD NFC  </item>
+        <item> SDKTest QUery NFC  </item>
+        <item> SDKTest DEL NFC  </item>
+        <item> ***************  </item>
+        <item> A Application saveAid ALLAID </item>
+        <item> A Application queryAID ALLAID  </item>
+        <item> A Application delAllAID ALLAID  </item>
+        <item> ***************  </item>
+        <item> B Application saveAid ALLAID  </item>
+        <item> B Application queryAID ALLAID  </item>
+        <item> B Application delAllAID ALLAID  </item>
+        <item> ***************  </item>
+        <item> A_Application saveAidMsg ADD IC AID  </item>
+        <item> A_Application queryAIDMsg IC AID  </item>
+        <item> A_Application delAllAIDMsg IC AID </item>
+        <item> ***************  </item>
+        <item> A_Application saveAidMsg ADD NFC AID  </item>
+        <item> A_Application queryAIDMsg NFC AID  </item>
+        <item> A_Application delAllAIDMsg NFC AID  </item>
+        <item> A_Application APOSITION_QUERY_AID  </item>
+
+        <item> ***************  </item>
+        <item> B_Application saveAidMsg IC AID  </item>
+        <item> B_Application queryAIDMsg IC AID  </item>
+        <item> B_Application delAllAIDMsg IC AID </item>
+        <item> ***************  </item>
+        <item> B_Application saveAidMsg NFC AID </item>
+        <item> B_Application queryAIDMsg NFC AID </item>
+        <item> B_Application delAllAIDMsg NFC AID  </item>
+        <item> ***************  </item>
+
+    </string-array>
+
+    <string-array name="CAPK_BUTTON_LIST">
+        <item>SDKTest ADD ALL CAPK</item>
+        <item>DEl ALL CAPK(SDKTest) </item>
+        <item>QUEERY ALL CAPK(SDKTest) </item>
+        <item> *************** </item>
+        <item>OFFLINE ADD CAPK(Offline) </item>
+        <item>DEL ALL CAPK(Offline) </item>
+        <item>query ALL CAPK(Offline)</item>
+
+    </string-array>
+
+
+    <string-array name="pressure_LIST">
+        <item>磁条卡测试</item>
+        <item>IC卡测试</item>
+        <item>非接卡测试</item>
+        <item>打印测试</item>
+        <item>蜂鸣器测试</item>
+        <item>补光灯测试</item>
+        <item>智能扫码每次都上电</item>
+        <item>智能扫码只首次执行上电操作</item>
+        <item>LCD 压力测试</item>
+        <item>查询执行结果</item>
+    </string-array>
+
+    <string-array name="ALL_SYSTEM_SERVICE_LIST">
+        <item>读取通讯库版本</item>
+        <item>读取SP版本</item>
+        <item>SP上电</item>
+        <item>SP下电</item>
+        <item>重置SP</item>
+        <item>蜂鸣器测试</item>
+        <item>打开RF灯</item>
+        <item>关闭RF灯</item>
+        <item>RF灯 全功能</item>
+        <item>获取SN</item>
+        <item>获取TUSN</item>
+
+        <item>hal_readUserKeyNum</item>
+        <item>hal_readUserKeyById</item>
+        <item>getPcbInfo</item>
+        <item>纽扣电池测试</item>
+        <item>GET IMEI</item>
+        <item>SET OS DateTime</item>
+        <item>Dal Rsa</item>
+
+        <item>设置BDKEY Index25</item>
+        <item>获取BDKEY Index25 KSN</item>
+        <item>BDKEY ָKSN值增加1</item>
+        <item>Index25 TDES_CBC_加密+解密</item>
+        <item>BDKEYIndex25 是否已导入</item>
+
+        <item>*****************</item>
+        <item>设置IPEK Index26</item>
+        <item>获取IPEK Index26 KSN</item>
+        <item>IPEK ָKSN值增加1</item>
+        <item>Index26 TDES_CBC_加密+解密</item>
+        <item>IPEK Index26 是否已导入</item>
+        <item>dukptSetPlainKSN</item>
+
+
+        <!--<item>固件更新测试</item>-->
+        <!--     <item>补光灯</item>
+             <item>电源灯红</item>
+             <item>电源灯绿</item>
+
+             <item>关补光灯</item>
+             <item>关电源灯红</item>
+             <item>关电源灯绿</item>-->
+
+<!--        <item>初始化LCD屏幕</item>
+        <item>获取LCD屏幕属性</item>
+        <item>在LCD上显示文本</item>
+        <item>清除LCD屏幕</item>
+        <item>填充LCD矩形区域</item>
+        <item>绘制LCD矩形边框</item>
+        <item>绘制LCD直线</item>
+        <item>在LCD上绘制图片</item>
+        <item>刷新LCD屏幕</item>-->
+        <item>开启专业扫码</item>
+        <item>关闭专业扫码</item>
+        <item>设备重启</item>
+<!--       ***********************       -->
+        <item>***********</item>
+        <item>DAL_UsbOpen_Non_Blocking</item>
+        <item>DAL_UsbOpen_Blocking</item>
+        <item> ******</item>
+        <item> Write and Read SDCard File</item>
+        <item>KEYBOARD_NUMBER_ONKEYLISTENER</item>
+        <item>键盘背光开关测试</item>
+        <item>打开系统设置</item>
+        <item>获取设备配置</item>
+        <item>获取密钥存储状态</item>
+        <item>按索引删除密钥</item>
+        <item>@string/system_enter_pan_test</item>
+        <item>@string/system_dukpt_get_card_data_test</item>
+        <item>@string/system_clear_temp_card_data_test</item>
+    </string-array>
+
+    <string-array name="ALL_SYSTEM_LCD_SERVICE_LIST">
+        <item>初始化LCD屏幕</item>
+        <item>获取LCD屏幕属性</item>
+        <item>在LCD上显示文本</item>
+        <item>清除LCD屏幕</item>
+        <item>填充LCD矩形区域</item>
+        <item>绘制LCD矩形边框</item>
+        <item>绘制LCD直线</item>
+        <item>在LCD上绘制图片</item>
+        <item>刷新LCD屏幕</item>
+        <item> ANIMATION_1</item>
+        <item> Display a single image</item>
+        <item> 显示动画图片 </item>
+        <item> Gif Animation left-->right </item>
+        <item> Gif Animation right-->left</item>
+        <item> ANIMATION_STOP </item>
+
+    </string-array>
+
+    <string-array name="ALL_SYSTEM_PERMISION_LIST">
+        <item> 1.4.1 LMK OOMADJ </item>
+        <item> 1.4.2.1 set Usb Device Permission No pop-up window  </item>
+        <item> 1.4.2.2 set Usb Device Permission Every time pop-up window  </item>
+        <item> 1.4.2.3 clearUsbDevicePermission </item>
+        <item> 1.4.2.4 set Usb Device Permission ALL No pop-up window  </item>
+        <item> 1.4.2.5 set Usb Device Permission ALL Every time pop-up window  </item>
+        <item> 1.4.2.6 clear ALL UsbDevicePermission  </item>
+        <item> 1.4.3 grantAllDangerousPermissions  </item>
+        <item> 1.4.4.1 set grantAppPowerManager  </item>
+        <item> 1.4.4.2 cancle grantAppPowerManager  </item>
+        <item> 1.4.5.1 setNetworkManagerPermission  </item>
+        <item> 1.4.5.2 cancle NetworkManagerPermission  </item>
+        <item> 1.4.6.1 grantRemoteControlPermissions  </item>
+        <item> 1.4.6.2 revokeRemoteControlPermissions  </item>
+        <item> 1.4.7 grantPersistentAlertWindowPermission  </item>
+        <item> 1.4.8 WRITE_SETTINGS  </item>
+        <item> 1.4.9.1 grantVendorSystemSdkPermission  </item>
+        <item> 1.4.9.2 revokeVendorSystemSdkPermission  </item>
+        <item> 1.4.10.1 grantVendorUserSdkPermission  </item>
+        <item> 1.4.10.2 checkVendorUserSdkPermission  </item>
+        <item> 1.4.10.3 revokeVendorUserSdkPermission  </item>
+        <item> 1.9 getDeviceFullInfo</item>
+        <item> 1.10 getAppFullStats</item>
+        <item> 3.8.1  屏幕亮度调整</item>
+        <item> 3.8.2  音量调节 </item>
+        <item> 3.8.3  字体调节 </item>
+        <item> 3.8.4  系统语言 </item>
+        <item> 3.8.5 省电参数管理   </item>
+        <item> 3.8.6 切换网络模式   </item>  //
+        <item> 3.8.6 读取网络+设备参数   </item>
+        <item> 3.8.6 连接WiFi   </item>
+
+        <item> 3.8.7 设置VPN代理   </item>
+        <item> 3.8.7 清除VPN代理   </item>
+        <item> 3.8.7 授予VPN权限   </item>
+        <item> 3.8.7 检查VPN权限   </item>
+        <!--        ***************  -->
+        <item> *********** </item>
+        <item> 写安全磁盘区文件 </item>
+        <item> 写安全磁盘区文件夹 </item>
+        <item> 读安全磁盘区文件</item>
+        <item> 查看安全磁盘区文件</item>
+        <item> 查看安全磁盘区指定文件大小</item>
+        <item> Open Settings  </item>
+        <item> getDeviceosVersion  </item>
+        <item> getAppVersionInfo  </item>
+
+
+
+
+
+    </string-array>
+
+    <string-array name="VPN_SETTINGS_LIST">
+        <item>设置全局VPN代理</item>
+        <item>清除VPN代理</item>
+        <item>授权VPN管理权限</item>
+        <item>检查VPN权限</item>
+    </string-array>
+
+    <string-array name="NETWORK_FUNCTION_LIST">
+        <item>切换为WiFi模式</item>
+        <item>切换为以太网模式</item>
+        <item>切换为SIM数据模式</item>
+        <item>扫描WiFi列表</item>
+        <item>查看网络参数</item>
+        <item>自动连接WiFi</item>
+    </string-array>
+
+    <string-array name="POWER_SAVING_LIST">
+        <item>15秒息屏</item>
+        <item>30秒息屏</item>
+        <item>1分钟息屏</item>
+        <item>2分钟息屏</item>
+        <item>开启CPU降频</item>
+        <item>关闭CPU降频</item>
+        <item>WIFI休眠（插电不休眠）</item>
+        <item>WIFI始终不休眠</item>
+    </string-array>
+
+    <string-array name="ALL_SYSTEM_MTK_SERVICE_LIST">
+
+        <item>打开补光灯</item>
+        <item>关闭补光灯</item>
+        <item>RF灯开</item>
+        <item>RF灯关</item>
+
+        <item>Figner Sign Power On </item>
+        <item>Figner Sign Power Off </item>
+        <item>Turn on 5v power supply</item>
+        <item>Turn off the 5v power supply</item>
+        <!--<item>Finger receiver</item>-->
+
+
+    </string-array>
+
+    <string-array name="ALL_SYSTEM_MTK820_SERVICE_LIST">
+
+        <item>打开补光灯</item>
+        <item>关闭补光灯</item>
+        <item>RF灯开</item>
+        <item>RF灯关</item>
+
+
+        <!--<item>Finger receiver</item>-->
+
+
+    </string-array>
+
+    <string-array name="AID">
+        <item>ADD all AID</item>
+        <item>DEL ALL AID</item>
+        <item> QUERY  AID</item>
+    </string-array>
+
+    <string-array name="CAPk">
+        <item>ADD all Capk</item>
+        <item>DEL ALL Capk</item>
+        <item>QUERY  Capk</item>
+    </string-array>
+
+    <!--   卡服务  -->
+    <string-array name="CARD_SERVICE_LIST">
+        <item>MSR卡测试</item>
+        <item>IC卡测试</item>
+        <item>RF卡测试</item>
+        <item>寻卡</item>
+        <item>打开EMV寻卡</item>
+        <item>关闭EMV寻卡</item>
+        <item>PICC 非接卡GetATS</item>
+        <item>PICC apdu 非接卡IsoCmd</item>
+        <item>ICC PowerOn</item>
+        <item>ICC PowerOff</item>
+        <item>ICC 接触卡GetATR</item>
+        <item>ICC apdu 接触卡IsoCmd</item>
+        <item>My Test</item>
+        <item>DAL_csc_is_Mifare</item>
+        <item>DAL_csc_Mifare_GetInfo</item>
+        <item>读取Mifare卡数据</item>
+        <item>更改Mifare卡数据①</item>
+        <item>更改Mifare卡数据②</item>
+        <item>Get Mifare UID</item>
+        <item>getSimCardStatus</item>
+    </string-array>
+
+    <string-array name="PRESSURE_SERVICE_LIST">
+        <item>MSR卡测试</item>
+        <item>IC卡测试</item>
+        <item>RF卡测试</item>
+        <item>寻卡</item>
+    </string-array>
+    <!--   打印机器服务  -->
+    <string-array name="QRCODE_SERVICE">
+        <item>Generate two-dimensional code</item>
+        <item>Zxing Scan lib</item>
+        <item>HMS QRScan</item>
+        <item>HW CUSTOM Front Camera</item>
+        <item>Scans myCamera</item>
+        <item>check run starus</item>
+        <item>检查摄像头定焦/变焦</item>
+<!--        <item>Scans view</item>
+        <item>Scans view Pressure</item>
+        <item>Scans activity</item>-->
+    </string-array>
+    <string-array name="PRINT_MACHINE_SERVICE">
+        <item>打印Bitmap</item>
+        <item>打印TextBitmap</item>
+        <item>手写签名</item>
+        <item>本地获取图片</item>
+        <item>加粗打印</item>
+        <item>电池电量</item>
+        <item>设置打印机打印深度</item>
+        <item>获取打印机状态</item>
+        <item>设置打印机走纸</item>
+        <item>文字打印左对齐</item>
+        <item>文字打印居中对齐</item>
+        <item>文字打印右对齐</item>
+        <item>文字打印左对齐有下划线</item>
+        <item>文字打印左对齐有加粗</item>
+        <item>文字打印左对齐2倍字体</item>
+        <item>DIY打印纯文本</item>
+        <item>SOMERS -4006 Bitmap</item>
+
+    </string-array>
+    <!--   EMV服务  -->
+    <string-array name="EMV_SERVICE">
+        <item>[getVer]</item>
+        <item>[init]</item>
+        <item>[getChkSumKernel]</item>
+        <item>[getChkSumConfig]</item>
+        <item>[paramGet]</item>
+        <item>[paramSet]</item>
+        <item>[paramSave]</item>
+        <item>[appInit]</item>
+        <item>[appSelect]</item>
+        <item>[appClear]</item>
+        <item>[appAdd]</item>
+        <item>[appGet]</item>
+        <item>[appDel]</item>
+        <item>[readAppData]</item>
+        <item>[procTrans]</item>
+        <item>[actAnalysisInPOS]</item>
+        <item>[scriptProcess]</item>
+        <item>[setTradeAmt]</item>
+        <item>[logAppSelect]</item>
+        <item>[logReadRecord]</item>
+        <item>[logGetItem]</item>
+        <item>[complete]</item>
+        <item>[clear]</item>
+        <item>[offlineDataAuth]</item>
+        <item>[processRestriction]</item>
+        <item>[cardholderVfy]</item>
+        <item>[riskManagement]</item>
+        <item>[addAppExp]</item>
+        <item>[piccPayInit]</item>
+        <item>[piccPayTrans]</item>
+        <!--<item>[Api_PosBsc_Init]</item>
+        <item>[Api_EMV_CapkListInit]</item>-->
+    </string-array>
+
+    <!--   EMVKernel服务  -->
+    <string-array name="EMV_KERNEL_SERVICE">
+        <item>Get Kernel Version</item>
+        <item>Open Kernel Log</item>
+        <item>Close Kernel Log</item>
+        <item>Load EMV Parameters</item>
+
+        <item>获取磁道/卡号密文数据</item>
+    </string-array>
+
+    <string-array name="EMV_KERNEL_WD_SERVICE">
+        <item>Get Kernel Version</item>
+        <item>Open Kernel Log</item>
+        <item>Close Kernel Log</item>
+        <item>Load EMV Parameters</item>
+        <item>获取磁道/卡号密文数据</item>
+        <item>Start EMV All CardType </item>
+        <item>Start EMV Random CardType</item>
+    </string-array>
+
+    <!--   QPBOC服务 -->
+    <string-array name="QPBOC_SERVICE">
+        <item>[setCallback]</item>
+        <item>[init]</item>
+        <item>[preProcess]</item>
+        <item>[selPPSE]</item>
+        <item>[selectApp]</item>
+        <item>[initApp]</item>
+        <item>[readAppData]</item>
+        <item>[offlineDataAuth]</item>
+        <item>[verifyCardholder]</item>
+        <item>[selectAppForLog]</item>
+        <item>[readLogRecord]</item>
+        <item>[getLogItem]</item>
+        <item>[addApp]</item>
+        <item>[getApp]</item>
+        <item>[clearApp]</item>
+        <item>[delApp]</item>
+        <item>[getParam]</item>
+        <item>[setParam]</item>
+        <item>[saveParam]</item>
+        <item>[getVersion]</item>
+        <item>[readELoadLogRecord]</item>
+        <item>[getELoadLogItem]</item>
+        <item>[getBalance]</item>
+        <item>[qpbocTransaction]</item>
+        <item>[qpbocAppInitReadData]</item>
+        <item>[Api_PosBsc_SetTLV]</item>
+    </string-array>
+    <!--    PAYPASS服务-->
+    <string-array name="PAYPASS_SERVICE">
+        <item>[setCallback]</item>
+        <item>[versionGet]</item>
+        <item>[init]</item>
+        <item>[preProcess]</item>
+        <item>[selApp]</item>
+        <item>[appInitReadData]</item>
+        <item>[mChipTransaction]</item>
+        <item>[tranComplete]</item>
+        <item>[msTranProcess]</item>
+        <item>[msTranComplete]</item>
+        <item>[getOutcome]</item>
+        <item>[clearApp]</item>
+        <item>[addApp]</item>
+        <item>[getApp]</item>
+        <item>[delApp]</item>
+        <item>[getParam]</item>
+        <item>[setParam]</item>
+        <item>[saveParam]</item>
+    </string-array>
+
+    <!--    PAYWAVE服务-->
+    <string-array name="PAYWAVE_SERVICE">
+        <item>[versionGet]</item>
+        <item>[init]</item>
+        <item>[preProcess]</item>
+        <item>[appSel]</item>
+        <item>[appInitReadData]</item>
+        <item>[transaction]</item>
+        <item>[complete]</item>
+        <item>[issuerUpdateProc]</item>
+        <item>[scriptResultGet]</item>
+        <item>[appClear]</item>
+        <item>[appAdd]</item>
+        <item>[appGet]</item>
+        <item>[appDel]</item>
+        <item>[paramGet]</item>
+        <item>[paramSet]</item>
+        <item>[paramSave]</item>
+    </string-array>
+
+    <!--    EMV交易测试-->
+    <string-array name="EMV_TRADING_TEST">
+        <item>接触式卡交易测试</item>
+        <item>磁条卡交易测试</item>
+        <item>非接卡交易测试</item>
+        <item>取消交易</item>
+    </string-array>
+    <!--    PinPad测试-->
+
+    <string-array name="PINPAD_TEST">
+
+        <item>写入 TLK</item>
+        <item>********** </item>
+        <item>写入 TMK 明文</item>
+        <item>写入 TMK 密文</item>
+        <item>********** </item>
+        <item>写入 TPK</item>
+        <item>写入 TAK</item>
+        <item>写入 TDK</item>
+        <item>写入 TCK</item>
+        <item>********** </item>
+        <item>DES 算法</item>
+        <item>计算MAC</item>
+        <item>启动 PinPad</item>
+        <item>启动 PinPad（随机键盘）</item>
+        <item>语言自定义密码键盘</item>
+        <item>自定义语言 PinPad（可选键盘布局）</item>
+    </string-array>
+    <string-array name="PIN_PAD_KEYPAD_LAYOUT_NAMES">
+        <item>顺序键盘 (randomKeypad=false)</item>
+        <item>随机键盘 (randomKeypad=true)</item>
+    </string-array>
+    <string-array name="qrscan_code">
+        <item>显示二维码</item>
+        <item>Zxing扫码</item>
+        <item>ZBar扫码</item>
+    </string-array>
+    <!--  Sam卡相关测试   -->
+    <string-array name="SAM_CARD_SERVICE_LIST">
+        <!--<item>SAM Card Test</item>-->
+        <item>检测是否有SAM卡</item>
+        <item>SAM卡上电</item>
+        <item>SAM卡通讯 APDU指令</item>
+        <item>SAM卡下电</item>
+        <item>*********</item>
+
+        <item>检测是否有[X]SAM卡</item>
+        <item>SAM卡[X]上电</item>
+        <item>SAM卡[X]通讯 APDU指令</item>
+        <item>SAM卡[X]下电</item>
+    </string-array>
+
+    <string-array name="PRESS_SERVICE_LIST">
+        <!--<item>SAM Card Test</item>-->
+        <item>磁条卡测试</item>
+        <item>IC卡测试</item>
+        <item>非接卡测试</item>
+        <item>打印机测试</item>
+        <item>蜂鸣器测试</item>
+    </string-array>
+
+    <string name="printer_bold">加粗打印</string>
+    <string name="printer_normal">正常字体</string>
+
+
+    <!--DUKPT -->
+    <string-array name="DUKPT_LIST">
+        <item>DUKPT 设置密钥 KeyIndex29</item>
+        <item>获取 KSN KeyIndex29</item>
+        <item>DUKPT TDES_CBC 加密</item>
+        <item>DUKPT TDES_CBC 解密</item>
+        <item>检查 DUKPT KeyIndex29 是否已导入</item>
+        <item>DUKPT KeyIndex29 KSN 加 1</item>
+        <item>启动 PinPad KeyIndex29</item>
+        <item>------------</item>
+        <item>X9.24 案例自动测试</item>
+        <item>DUKPT AES 加解密/CMAC 测试</item>
+    </string-array>
+
+    <!--TR31 -->
+    <string-array name="TR31_LIST">
+        <item>(1)DUKPT Set TR31 KeyIndex 11</item>
+        <item>(2)DUKPT 获取KSN KeyIndex 11</item>
+        <item>DUKPT TDES_CBC_加密</item>
+        <item>DUKPT TDES_CBC_解密</item>
+        <item>DUKPT KEY是否存在</item>
+        <item>DUKPT ָKSN值增加1</item>
+        <item>Start PinPad KeyIndex 11</item>
+        <item>------------</item>
+        <item>DUKPT Set TR31 KeyIndex 12</item>
+        <item>DUKPT 获取KSN KeyIndex 12</item>
+        <item>DUKPT KeyIndex12 ָKSN值增加1</item>
+        <item>Start PinPad KeyIndex12</item>
+    </string-array>
+
+
+    <string-array name="TR31_LIST_X">
+        <item>(1) DUKPT Check Key Exist</item>
+        <item>(2) DUKPT Set TR31</item>
+        <item>(3) DUKPT Get KSN</item>
+        <item>(4) DUKPT increase KSN</item>
+        <item>(5) DUKPT Encrypt/Decrypt</item>
+        <item>(6) DUKPT PinPad</item>
+        <item>------------</item>
+        <item>(7) DUKPT Set IPEK</item>
+        <item>(8) DUKPT Set BDK</item>
+        <item>(9) DUKPT PinPad2</item>
+        <item>(10) Check Data</item>
+    </string-array>
+
+    <string-array name="SSL_LIST">
+        <item>(1) 设置证书（文件路径）</item>
+        <item>(2) 建立 SSL 连接</item>
+        <item>(3) 发送数据</item>
+        <item>(4) 接收数据</item>
+        <item>(5) 关闭连接</item>
+        <item>------------</item>
+        <item>(6) 压力测试（多线程连接）</item>
+    </string-array>
+
+    <string-array name="CMAC_TEST_LIST">
+        <item>AES CMAC 单次计算</item>
+        <item>AES CMAC 分步计算</item>
+        <item>AES CMAC 结果对比</item>
+
+        <item>3DES CMAC 单次计算</item>
+        <item>3DES CMAC 分步计算</item>
+        <item>3DES CMAC 结果对比</item>
+
+        <item>导入自定义密钥</item>
+        <item>AES ECB 加密</item>
+        <item>AES ECB 解密</item>
+        <item>AES CBC 加密</item>
+        <item>AES CBC 解密</item>
+        <item>AES CMAC</item>
+        <item>AES CMAC 128KB 分段计算</item>
+        <item>AES CMAC 128KB 单次计算</item>
+        <item>CMAC 128KB 速度循环测试</item>
+        <item>未加载自定义密钥103</item>
+    </string-array>
+
+</resources>

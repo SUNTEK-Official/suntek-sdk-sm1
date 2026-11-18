@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="During fingerprint recognition test, please keep USB disconnected;"
+        android:textColor="#FF2323"
+        android:textSize="24dp"
+        android:background="#87CEFA"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="50dp"
+            android:id="@+id/tv_011_result"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Fingerprint On"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_01"
+            android:padding="10dp"
+            android:background="#87CEFA"
+            android:foreground="?android:attr/selectableItemBackground"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:id="@+id/tv_022_result"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Fingerprint OFF"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:background="#87CEFA"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_02"
+        android:padding="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="50dp"
+            android:id="@+id/tv_inputtest"
+            android:singleLine="true"
+            android:background="@drawable/edit_text_border"
+            android:text="026100050100B6684C1B03"
+            android:gravity="center"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Final uartSend"
+            android:id="@+id/btn_finger_test"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请输入十六进制数据作为指纹测试数据"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="50dp"
+            android:id="@+id/ed_input"
+            android:singleLine="true"
+            android:background="@drawable/edit_text_border"
+            android:paddingLeft="10dp"
+            android:gravity="center"
+            android:digits="0123456789ABCDEF"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="uartSend"
+            android:id="@+id/btn_finger"
+            android:padding="10dp"
+            />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tv_finger_result"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="uartSend Indicates the result of the interface request ："
+        android:background="@drawable/edit_text_border"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_fingerget"
+            android:singleLine="true"
+            android:textColor="#0000FF"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_border"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="uartReceive"
+            android:id="@+id/btn_fingerget"
+            android:gravity="center"
+            android:padding="10dp"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

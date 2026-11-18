@@ -1,0 +1,7 @@
+<!-- res/drawable/button_selector.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 当按钮被按下时的背景颜色 -->
+    <item android:drawable="@color/viewfinder_text_color4" android:state_pressed="true" />
+    <!-- 默认的背景颜色 -->
+    <item android:drawable="@color/teal_200" />
+</selector>

@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   主菜单 -->
+    <string-array name="SERVICE_LIST">
+        <item>system service</item>
+    </string-array>
+    <string-array name="ALL_SERVICE_LIST">
+        <item>system service</item>
+        <item>Card Services</item>
+        <item>Printer service</item>
+        <item>PinPad service</item>
+        <item>Qrcode/QrScan</item>
+        <item>Sam Card Test</item>
+
+        <item>TR31 Test</item>
+        <item>DUKPT Test</item>
+        <item>Pressure Test</item>
+    </string-array>
+
+    <string-array name="ALL_MTK_SERVICE_LIST">
+        <item>system service</item>
+        <item>Secondary screen service</item>
+        <item>Card Services</item>
+        <item>Printer service</item>
+
+
+        <item>Loads Key service</item>
+        <item>Qrcode/QrScan</item>
+        <item>Sam Card Test</item>
+        <item>Mtk Test</item>
+        <item>EmvKernel Test</item>
+        <item>AidActivity</item>
+        <item>CapkActivity</item>
+        <item>TR31 Test</item>
+        <item>DUKPT Test</item>
+        <item>Pressure</item>
+        <item>SSL API</item>
+        <item>About Permision</item>
+
+        <item>CMAC API</item>
+        <item> Physical Keyboard test</item>
+        <!--<item>VoiceRecognition</item>-->
+
+
+        <!--<item>SIM Card</item>-->
+        <!--<item> APN </item>
+         -->
+    </string-array>
+
+    <!--  系統服务  -->
+    <string-array name="SYSTEM_SERVICE_LIST">
+        <item>Read library version</item>
+        <item>Read SP version</item>
+        <item>Buzzer test</item>
+        <item>Turn on RF lamp</item>
+        <item>Turn off RF lamp</item>
+        <item>Reset SP</item>
+        <item>Obtain SN</item>
+        <item>Get TUSN</item>
+    </string-array>
+
+    <string-array name="AID_BUTTON_LIST">
+        <item> SDKTest ADD IC  </item>
+        <item> SDKTest QUery IC  </item>
+        <item> SDKTest DEL IC  </item>
+        <item> ***************  </item>
+        <item> SDKTest ADD NFC  </item>
+        <item> SDKTest QUery NFC  </item>
+        <item> SDKTest DEL NFC  </item>
+        <item> ***************  </item>
+        <item> A Application saveAid ALLAID </item>
+        <item> A Application queryAID ALLAID  </item>
+        <item> A Application delAllAID ALLAID  </item>
+        <item> ***************  </item>
+        <item> B Application saveAid ALLAID  </item>
+        <item> B Application queryAID ALLAID  </item>
+        <item> B Application delAllAID ALLAID  </item>
+        <item> ***************  </item>
+        <item> A_Application saveAidMsg ADD IC AID  </item>
+        <item> A_Application queryAIDMsg IC AID  </item>
+        <item> A_Application delAllAIDMsg IC AID </item>
+        <item> ***************  </item>
+        <item> A_Application saveAidMsg ADD NFC AID  </item>
+        <item> A_Application queryAIDMsg NFC AID  </item>
+        <item> A_Application delAllAIDMsg NFC AID  </item>
+        <item> A_Application APOSITION_QUERY_AID  </item>
+        <item> ***************  </item>
+        <item> B_Application saveAidMsg IC AID  </item>
+        <item> B_Application queryAIDMsg IC AID  </item>
+        <item> B_Application delAllAIDMsg IC AID </item>
+        <item> ***************  </item>
+        <item> B_Application saveAidMsg NFC AID </item>
+        <item> B_Application queryAIDMsg NFC AID </item>
+        <item> B_Application delAllAIDMsg NFC AID  </item>
+        <item> ***************  </item>
+    </string-array>
+
+
+    <string-array name="CAPK_BUTTON_LIST">
+        <item>SDKTest ADD ALL CAPK</item>
+        <item>DEl ALL CAPK(SDKTest) </item>
+        <item>QUEERY ALL CAPK(SDKTest) </item>
+        <item> *************** </item>
+        <item>OFFLINE ADD CAPK(Offline) </item>
+        <item>DEL ALL CAPK(Offline) </item>
+        <item>query ALL CAPK(Offline)</item>
+
+    </string-array>
+
+
+    <string-array name="pressure_LIST">
+
+        <item>MSR Card Test</item>
+        <item>IC Card Test</item>
+        <item>NFC Card test</item>
+        <item>Print test</item>
+        <item>Buzzer test</item>
+        <item>Fill light test</item>
+        <item>Professional QRScan (Power-on every time)</item>
+        <item>Professional QRScan (First power-on)</item>
+        <item>LCD Stress Test</item>
+        <item>Query the execution result</item>
+    </string-array>
+
+    <string-array name="ALL_SYSTEM_SERVICE_LIST">
+        <item>Read library version</item>
+        <item>Read SP version</item>
+        <item>SP PowerOn </item>
+        <item>SP Power Down</item>
+        <item>Reset SP</item>
+        <item>Buzzer test</item>
+        <item>Turn on RF lamp</item>
+        <item>Turn off RF lamp</item>
+        <item>RF lamp All Status</item>
+
+        <item>Obtain SN</item>
+        <item>Get TUSN</item>
+
+        <item>hal_readUserKeyNum</item>
+        <item>hal_readUserKeyById</item>
+
+        <item>getPcbInfo</item>
+        <item>Button cell test</item>
+        <item>GET IMEI</item>
+        <item>SET OS DateTime</item>
+        <item>Dal Rsa</item>
+
+        <item>Set BDKEY Index25</item>
+        <item>Get BDKEY Index25 KSN</item>
+        <item>BDKEY Increment KSN by 1</item>
+        <item>Index25 TDES_CBC_Encrypt + Decrypt </item>
+        <item>Check if BDKEY Index25 is Imported</item>
+
+        <item>*****************</item>
+        <item>Set IPEK Index26</item>
+        <item>Get IPEK Index26 KSN</item>
+        <item>IPEK Increment KSN by 1</item>
+        <item>Index26 TDES_CBC_Encrypt+Decrypt</item>
+        <item>Check if IPEK Index26 is Imported</item>
+        <item>dukptSetPlainKSN</item>
+
+        <!--<item>Firmware update test</item>-->
+        <!--<item>Fill-in light</item>
+        <item>Power light red</item>
+        <item>Power light green</item>
+
+        <item>Close Fill-in light</item>
+        <item>Close Power light red</item>
+        <item>Close Power light green</item>-->
+
+<!--        <item>Initialize LCD Screen</item>
+        <item>Get LCD Screen Properties</item>
+        <item>Display Text on LCD</item>
+        <item>Clear LCD Screen</item>
+        <item>Fill Rectangle on LCD</item>
+        <item>Draw Rectangle Border on LCD</item>
+        <item>Draw Line on LCD</item>
+        <item>Draw Picture on LCD</item>
+        <item>Refresh LCD Screen</item>-->
+        <item>Open Professional scanning</item>
+        <item>Disable Professional scanning</item>
+        <item>Device Restart</item>
+        <item>***********</item>
+        <item>DAL_UsbOpen_Non_Blocking</item>
+        <item>DAL_UsbOpen_Blocking</item>
+        <item>***********</item>
+        <item> Write and Read SDCard File</item>
+        <item>KEYBOARD_NUMBER_ONKEYLISTENER</item>
+        <item>Keyboard backlight ON/OFF test</item>
+        <item>Open system settings</item>
+        <item>Read device config info</item>
+        <item>Get key map</item>
+        <item>Remove key by index</item>
+        <item>@string/system_enter_pan_test</item>
+        <item>@string/system_dukpt_get_card_data_test</item>
+        <item>@string/system_clear_temp_card_data_test</item>
+
+
+    </string-array>
+
+    <string-array name="ALL_SYSTEM_LCD_SERVICE_LIST">
+        <item>Initialize LCD Screen</item>
+        <item>Get LCD Screen Properties</item>
+        <item>Display Text on LCD</item>
+        <item>Clear LCD Screen</item>
+        <item>Fill Rectangle on LCD</item>
+        <item>Draw Rectangle Border on LCD</item>
+        <item>Draw Line on LCD</item>
+        <item>Draw Picture on LCD</item>
+        <item>Refresh LCD Screen</item>
+        <item> ANIMATION_1</item>
+        <item> Display a single image</item>
+        <item> Display scrolling animation </item>
+        <item> Gif Animation left-->right </item>
+        <item> Gif Animation right-->left</item>
+        <item> ANIMATION_STOP </item>
+
+    </string-array>
+
+
+    <string-array name="ALL_SYSTEM_PERMISION_LIST">
+        <item> 1.4.1 LMK OOMADJ </item>
+        <item> 1.4.2.1 set Usb Device Permission No pop-up window  </item>
+        <item> 1.4.2.2 set Usb Device Permission Every time pop-up window  </item>
+        <item> 1.4.2.3 clearUsbDevicePermission </item>
+        <item> 1.4.2.4 set Usb Device Permission ALL No pop-up window  </item>
+        <item> 1.4.2.5 set Usb Device Permission ALL Every time pop-up window  </item>
+        <item> 1.4.2.6 clear ALL UsbDevicePermission  </item>
+        <item> 1.4.3 grantAllDangerousPermissions  </item>
+        <item> 1.4.4.1 set grantAppPowerManager  </item>
+        <item> 1.4.4.2 cancle grantAppPowerManager  </item>
+        <item> 1.4.5.1 setNetworkManagerPermission  </item>
+        <item> 1.4.5.2 cancle NetworkManagerPermission  </item>
+        <item> 1.4.6.1 grantRemoteControlPermissions  </item>
+        <item> 1.4.6.2 revokeRemoteControlPermissions  </item>
+        <item> 1.4.7 grantPersistentAlertWindowPermission  </item>
+        <item> 1.4.8 WRITE_SETTINGS  </item>
+        <item> 1.4.9.1 grantVendorSystemSdkPermission  </item>
+        <item> 1.4.9.2 revokeVendorSystemSdkPermission  </item>
+        <item> 1.4.10.1 grantVendorUserSdkPermission  </item>
+        <item> 1.4.10.2 checkVendorUserSdkPermission  </item>
+        <item> 1.4.10.3 revokeVendorUserSdkPermission  </item>
+        <item> 1.9 getDeviceFullInfo</item>
+        <item> 1.10 getAppFullStats</item>
+        <item> 3.8.1  Screen brightness</item>
+        <item> 3.8.2  Volume adjustment </item>
+        <item> 3.8.3  Font adjustment </item>
+        <item> 3.8.4  System language </item>
+        <item> 3.8.5 Power-saving parameter management   </item>
+
+        <item> 3.8.6 POSITION_SET_NETWORK_MODE   </item>  //
+        <item> 3.8.6 POSITION_GET_NETWORK_DEVICE_INFO   </item>
+        <item> 3.8.6 POSITION_CONNECT_WIFI   </item>
+
+        <item> 3.8.7 POSITION_SET_VPN_PROXY   </item>
+        <item> 3.8.7 POSITION_CLEAR_VPN_PROXY   </item>
+        <item> 3.8.7 POSITION_GRANT_VPN_PERMISSION   </item>
+        <item> 3.8.7 POSITION_CHECK_VPN_PERMISSION   </item>
+        <item> *********** </item>
+        <item> Write safe disk file </item>
+        <item> Create the "Safe Disk Area" folder </item>
+        <item>Read safe disk file</item>
+        <item>Find safe disk file</item>
+        <item>Find safe disk file one name</item>
+        <item> Open Settings  </item>
+        <item> getDeviceosVersion  </item>
+        <item> getAppVersionInfo  </item>
+
+
+    </string-array>
+
+    <string-array name="VPN_SETTINGS_LIST">
+        <item>设置全局VPN代理</item>
+        <item>清除VPN代理</item>
+        <item>授权VPN管理权限</item>
+        <item>检查VPN权限</item>
+    </string-array>
+
+
+    <string-array name="NETWORK_FUNCTION_LIST">
+        <item>切换为WiFi模式</item>
+        <item>切换为以太网模式</item>
+        <item>切换为SIM数据模式</item>
+        <item>扫描WiFi列表</item>
+        <item>查看网络参数</item>
+        <item>自动连接WiFi</item>
+    </string-array>
+
+    <string-array name="POWER_SAVING_LIST">
+        <item>15秒息屏</item>
+        <item>30秒息屏</item>
+        <item>1分钟息屏</item>
+        <item>2分钟息屏</item>
+        <item>开启CPU降频</item>
+        <item>关闭CPU降频</item>
+        <item>WIFI休眠（插电不休眠）</item>
+        <item>WIFI始终不休眠</item>
+    </string-array>
+
+    <string-array name="ALL_SYSTEM_MTK_SERVICE_LIST">
+        <item>Turn on the fill light</item>
+        <item>Turn off the fill light</item>
+
+        <item>Power light RF</item>
+        <item>Power light RF</item>
+        <item>Figner Sign Power On </item>
+        <item>Figner Sign Power Off </item>
+        <item>Turn on 5v power supply</item>
+        <item>Turn off the 5v power supply</item>
+        <!--        <item>Finger receiver</item>-->
+    </string-array>
+
+    <string-array name="ALL_SYSTEM_MTK820_SERVICE_LIST">
+
+        <item>打开补光灯</item>
+        <item>关闭补光灯</item>
+        <item>RF灯开</item>
+        <item>RF灯关</item>
+
+
+        <!--<item>Finger receiver</item>-->
+
+
+    </string-array>
+
+    <string-array name="AID">
+        <item>ADD all AID</item>
+        <item>DEL ALL AID</item>
+        <item> QUERY  AID</item>
+    </string-array>
+
+    <string-array name="CAPk">
+        <item>ADD all Capk</item>
+        <item>DEL ALL Capk</item>
+        <item>QUERY  Capk</item>
+    </string-array>
+
+
+    <!--   卡服务  -->
+    <string-array name="CARD_SERVICE_LIST">
+        <item>MSR card test</item>
+        <item>IC card test</item>
+        <item>RF card test</item>
+        <item>Search card</item>
+        <item>Open the EMV search card</item>
+        <item>Disable EMV card search</item>
+        <item>PICC cscGetATS</item>
+        <item>PICC apdu CscIsoCmd</item>
+        <item>ICC PowerOn</item>
+        <item>ICC PowerOff</item>
+        <item>ICC SciGetATR</item>
+        <item>ICC apdu SciIsoCmd</item>
+        <item>My Test</item>
+        <item>DAL_csc_is_Mifare</item>
+        <item>DAL_csc_Mifare_GetInfo</item>
+        <item>Read Mifare Card Data</item>
+        <item>Modify Card data①</item>
+        <item>Modify Card data②</item>
+        <item>Get Mifare UID</item>
+        <item>getSimCardStatus</item>
+
+    </string-array>
+    <!--   卡服务  -->
+    <string-array name="PRESSURE_SERVICE_LIST">
+        <item>MSR card test</item>
+        <item>IC card test</item>
+        <item>RF card test</item>
+        <item>Search card</item>
+    </string-array>
+    <string-array name="QRCODE_SERVICE">
+        <item>Generate two-dimensional code</item>
+        <item>Zxing Scan lib</item>
+        <item>HMS QRScan</item>
+        <item>HW CUSTOM Front Camera</item>
+        <item>Scans myCamera</item>
+        <item>check run starus</item>
+        <item>Check  Camera fixed focus / zoom</item>
+     <!--   <item>Scans view</item>
+        <item>Scans view Pressure</item>
+        <item>Scans activity</item>
+-->
+
+    </string-array>
+    <!--   打印机器服务  -->
+    <string-array name="PRINT_MACHINE_SERVICE">
+        <item>Print Bitmap</item>
+        <item>Print TextBitmap</item>
+        <item>Hand signature</item>
+        <item>Locally acquired picture</item>
+        <item>Bold Printing</item>
+        <item>Battery Level</item>
+        <item>Set Printer Printing Depth</item>
+        <item>Get Printer Status</item>
+        <item>Set Printer Paper Feed</item>
+        <item>Print the text left-aligned</item>
+        <item>The printed text should be centered</item>
+        <item>Print the text to right alignment</item>
+        <item>The text is printed left-aligned with an underline</item>
+        <item>The printed text is left-aligned and bolded</item>
+        <item>Print the text in left-aligned 2x font</item>
+        <item> DIY printing of plain text </item>
+        <item>SOMERS -4006 Bitmap</item>
+
+    </string-array>
+    <!--   EMV服务  -->
+    <string-array name="EMV_SERVICE">
+        <item>[getVer]</item>
+        <item>[init]</item>
+        <item>[getChkSumKernel]</item>
+        <item>[getChkSumConfig]</item>
+        <item>[paramGet]</item>
+        <item>[paramSet]</item>
+        <item>[paramSave]</item>
+        <item>[appInit]</item>
+        <item>[appSelect]</item>
+        <item>[appClear]</item>
+        <item>[appAdd]</item>
+        <item>[appGet]</item>
+        <item>[appDel]</item>
+        <item>[readAppData]</item>
+        <item>[procTrans]</item>
+        <item>[actAnalysisInPOS]</item>
+        <item>[scriptProcess]</item>
+        <item>[setTradeAmt]</item>
+        <item>[logAppSelect]</item>
+        <item>[logReadRecord]</item>
+        <item>[logGetItem]</item>
+        <item>[complete]</item>
+        <item>[clear]</item>
+        <item>[offlineDataAuth]</item>
+        <item>[processRestriction]</item>
+        <item>[cardholderVfy]</item>
+        <item>[riskManagement]</item>
+        <item>[addAppExp]</item>
+        <item>[piccPayInit]</item>
+        <item>[piccPayTrans]</item>
+        <!--<item>[Api_PosBsc_Init]</item>
+        <item>[Api_EMV_CapkListInit]</item>-->
+    </string-array>
+    <!--   EMVKernel服务  -->
+    <string-array name="EMV_KERNEL_SERVICE">
+        <item>Get Kernel Version</item>
+        <item>Open Kernel Log</item>
+        <item>Close Kernel Log</item>
+        <item>Load EMV Parameters</item>
+        <item>Track/PAN ciphertext data</item>
+    </string-array>
+
+    <string-array name="EMV_KERNEL_WD_SERVICE">
+        <item>Get Kernel Version</item>
+        <item>Open Kernel Log</item>
+        <item>Close Kernel Log</item>
+        <item>Load EMV Parameters</item>
+        <item>Track/PAN ciphertext data</item>
+        <item>Start EMV All CardType </item>
+        <item>Start EMV Random CardType</item>
+    </string-array>
+    <!--   QPBOC服务 -->
+    <string-array name="QPBOC_SERVICE">
+        <item>[setCallback]</item>
+        <item>[init]</item>
+        <item>[preProcess]</item>
+        <item>[selPPSE]</item>
+        <item>[selectApp]</item>
+        <item>[initApp]</item>
+        <item>[readAppData]</item>
+        <item>[offlineDataAuth]</item>
+        <item>[verifyCardholder]</item>
+        <item>[selectAppForLog]</item>
+        <item>[readLogRecord]</item>
+        <item>[getLogItem]</item>
+        <item>[addApp]</item>
+        <item>[getApp]</item>
+        <item>[clearApp]</item>
+        <item>[delApp]</item>
+        <item>[getParam]</item>
+        <item>[setParam]</item>
+        <item>[saveParam]</item>
+        <item>[getVersion]</item>
+        <item>[readELoadLogRecord]</item>
+        <item>[getELoadLogItem]</item>
+        <item>[getBalance]</item>
+        <item>[qpbocTransaction]</item>
+        <item>[qpbocAppInitReadData]</item>
+        <item>[Api_PosBsc_SetTLV]</item>
+    </string-array>
+    <!--    PAYPASS服务-->
+
+    <string-array name="PAYPASS_SERVICE">
+        <item>[setCallback]</item>
+        <item>[versionGet]</item>
+        <item>[init]</item>
+        <item>[preProcess]</item>
+        <item>[selApp]</item>
+        <item>[appInitReadData]</item>
+        <item>[mChipTransaction]</item>
+        <item>[tranComplete]</item>
+        <item>[msTranProcess]</item>
+        <item>[msTranComplete]</item>
+        <item>[getOutcome]</item>
+        <item>[clearApp]</item>
+        <item>[addApp]</item>
+        <item>[getApp]</item>
+        <item>[delApp]</item>
+        <item>[getParam]</item>
+        <item>[setParam]</item>
+        <item>[saveParam]</item>
+    </string-array>
+    <!--    PAYWAVE服务-->
+    <string-array name="PAYWAVE_SERVICE">
+        <item>[versionGet]</item>
+        <item>[init]</item>
+        <item>[preProcess]</item>
+        <item>[appSel]</item>
+        <item>[appInitReadData]</item>
+        <item>[transaction]</item>
+        <item>[complete]</item>
+        <item>[issuerUpdateProc]</item>
+        <item>[scriptResultGet]</item>
+        <item>[appClear]</item>
+        <item>[appAdd]</item>
+        <item>[appGet]</item>
+        <item>[appDel]</item>
+        <item>[paramGet]</item>
+        <item>[paramSet]</item>
+        <item>[paramSave]</item>
+    </string-array>
+    <!--    EMV交易测试-->
+    <string-array name="EMV_TRADING_TEST">
+        <item>Contact card transaction test</item>
+        <item>MSR-card transaction test</item>
+        <item>Non-card transaction test</item>
+        <item>Cancle transaction test</item>
+    </string-array>
+    <!--    PinPad测试-->
+    <string-array name="PINPAD_TEST">
+
+        <item>Write TLK </item>
+        <item>********** </item>
+        <item>Write TMK Plaintext </item>
+        <item>Write TMK Ciphertext</item>
+        <item>********** </item>
+        <item>Write TPK   </item>
+        <item>Write TAK   </item>
+        <item>Write TDK   </item>
+        <item>Write TCK   </item>
+        <item>********** </item>
+        <item>Alg DES</item>
+        <item>Calc MAC</item>
+        <item>Start PinPad</item>
+        <item>Start PinPad With Random Keypad</item>
+        <item>Language Custom PinPad</item>
+        <item>Language Custom PinPad With Keypad Layout</item>
+    </string-array>
+    <string-array name="PIN_PAD_KEYPAD_LAYOUT_NAMES">
+        <item>Sequential keypad (randomKeypad=false)</item>
+        <item>Random keypad (randomKeypad=true)</item>
+    </string-array>
+    <string-array name="qrscan_code">
+        <item>Show QrCode</item>
+        <item>QRScan Zxing</item>
+        <item>QRScan ZBar</item>
+    </string-array>
+
+    <!--  Sam卡相关测试   -->
+    <string-array name="SAM_CARD_SERVICE_LIST">
+        <!--<item>SAM Card Test</item>-->
+        <item>SAM Card Detect</item>
+        <item>SAM Card PowerOn</item>
+        <item>SAM Card IsoCmd</item>
+        <item>SAM Card Close</item>
+
+        <item>*********</item>
+        <item>SAM Card [X] Detect Pro</item>
+        <item>SAM Card [X] PowerOn Pro</item>
+        <item>SAM Card [X] IsoCmd Pro</item>
+        <item>SAM Card [X] Close Pro</item>
+    </string-array>
+    <string-array name="PRESS_SERVICE_LIST">
+        <!--<item>SAM Card Test</item>-->
+        <item>MSR Card Test</item>
+        <item>IC Card Test</item>
+        <item>BFC Card Test</item>
+        <item>Print Bitmap</item>
+        <item>Buzzer test</item>
+    </string-array>
+    <string name="printer_bold">Bold Print</string>
+    <string name="printer_normal">No bold printing</string>
+
+
+    <!--DUKPT -->
+    <string-array name="DUKPT_LIST">
+        <item>DUKPT SetKey</item>
+        <item>DUKPT Get KSN KeyIndex29</item>
+        <item>DUKPT TDES_CBC_Encrypt</item>
+        <item>DUKPT TDES_CBC_Decrypt</item>
+        <item>Check if DUKPT KeyIndex29 is Imported</item>
+        <item>Increment DUKPT KeyIndex29 KSN by 1</item>
+        <item>Start PinPad with KeyIndex29</item>
+        <item>------------</item>
+        <item>X9.24 Automated testing</item>
+        <item>DUKPT AES Enc/Dec/CMAC Test</item>
+    </string-array>
+
+
+    <!--TR31 -->
+    <string-array name="TR31_LIST">
+        <item>(1) DUKPT Set TR31 KeyIndex11</item>
+        <item>(2) DUKPT Get KSN KeyIndex11</item>
+        <item>DUKPT TDES_CBC_Encrypt</item>
+        <item>DUKPT TDES_CBC_Decrypt</item>
+        <item>DUKPT Check if Key Exists</item>
+        <item>DUKPT KeyIndex11 KSN by 1</item>
+        <item>Start PinPad KeyIndex11</item>
+        <item>------------</item>
+        <item>DUKPT Set TR31 KeyIndex12</item>
+        <item>DUKPT Get KSN KeyIndex12</item>
+        <item>DUKPT KeyIndex12 KSN by 1</item>
+        <item>Start PinPad KeyIndex12</item>
+    </string-array>
+
+    <string-array name="TR31_LIST_X">
+        <item>(1) DUKPT Check Key Exist</item>
+        <item>(2) DUKPT Set TR31</item>
+        <item>(3) DUKPT Get KSN</item>
+        <item>(4) DUKPT increase KSN</item>
+        <item>(5) DUKPT Encrypt/Decrypt</item>
+        <item>(6) DUKPT PinPad</item>
+        <item>------------</item>
+        <item>(7) DUKPT Set IPEK</item>
+        <item>(8) DUKPT Set BDK</item>
+        <item>(9) DUKPT PinPad2</item>
+        <item>(10) Check Data</item>
+    </string-array>
+
+    <string-array name="SSL_LIST">
+        <item>(1) SSL Set Cert (From File)</item>
+        <item>(2) SSL Connect</item>
+        <item>(3) SSL Write</item>
+        <item>(4) SSL Read</item>
+        <item>(5) SSL Close</item>
+        <item>------------</item>
+        <item>(6) SSL Stress Test</item>
+    </string-array>
+
+    <string-array name="CMAC_TEST_LIST">
+        <item>AES CMAC One Shot</item>
+        <item>AES CMAC Flow</item>
+        <item>AES CMAC Compare</item>
+
+        <item>3DES CMAC One Shot</item>
+        <item>3DES CMAC Flow</item>
+        <item>3DES CMAC Compare</item>
+
+        <item>Import Custom Key</item>
+        <item>AES ECB ENC</item>
+        <item>AES ECB DEC</item>
+        <item>AES CBC ENC</item>
+        <item>AES CBC DEC</item>
+        <item>AES CMAC</item>
+        <item>AES CMAC 128KB Flow</item>
+        <item>AES CMAC 128KB One Shot</item>
+        <item>CMAC 128KB Speed Loop</item>
+        <item>Unloaded Custom Key 103</item>
+    </string-array>
+</resources>

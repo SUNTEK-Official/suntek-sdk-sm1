@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/clear_text"
+            android:textSize="12sp"
+            android:text="@string/clear"
+            android:textAllCaps="false"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:id="@+id/ll_count"
+            android:visibility="gone"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:text="Execution times："
+                android:textAllCaps="false"
+                android:inputType="number"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:id="@+id/ed_conut"
+                android:textSize="12sp"
+                android:gravity="left"
+                android:hint="1"
+                android:textAllCaps="false"
+                android:inputType="number"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_sign"
+            android:ems="10"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:visibility="gone"/>
+        <ImageView
+            android:id="@+id/iv_jbigToimg"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:visibility="gone"/>
+
+        <ScrollView
+            android:id="@+id/sv_result"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12">
+
+            <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp" />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <com.szanfu.sdk.test.view.AutoMeasureListView
+                    android:id="@+id/lv_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@null"
+                    android:visibility="gone"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <Button
+                        android:id="@+id/printBitmap"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/button_printer_selector"
+                        android:focusable="false"
+                        android:text="@string/printBitmap"
+                        android:textAllCaps="false"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/handsignature"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:textSize="12sp"
+                        android:textAllCaps="false"
+                        android:layout_margin="5dp"
+                        android:text="@string/handsignature"
+                        android:background="@drawable/clors_btn"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        />
+                    <Button
+                        android:id="@+id/locallyacquiredpicture"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:textSize="12sp"
+                        android:textAllCaps="false"
+                        android:layout_margin="5dp"
+                        android:text="@string/locallyacquiredpicture"
+                        android:background="@drawable/clors_btn"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        />
+                    <Button
+                        android:id="@+id/bold_printing"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:textSize="12sp"
+                        android:textAllCaps="false"
+                        android:layout_margin="5dp"
+                        android:text="@string/bold_printing"
+                        android:background="@drawable/clors_btn"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        />
+                    <Button
+                        android:id="@+id/batterylevel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:textSize="12sp"
+                        android:textAllCaps="false"
+                        android:layout_margin="5dp"
+                        android:text="@string/batterylevel"
+                        android:background="@drawable/clors_btn"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        />
+                    <Button
+                        android:id="@+id/dal_thermalprintsetdepth"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:textSize="12sp"
+                        android:textAllCaps="false"
+                        android:layout_margin="5dp"
+                        android:text="@string/dal_thermalprintsetdepth"
+                        android:background="@drawable/clors_btn"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        />
+                    <Button
+                        android:id="@+id/dal_thermalprintgetstatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:textSize="12sp"
+                        android:textAllCaps="false"
+                        android:layout_margin="5dp"
+                        android:text="@string/dal_thermalprintgetstatus"
+                        android:background="@drawable/clors_btn"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        />
+                    <Button
+                        android:id="@+id/paperfeddingtest"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:textSize="12sp"
+                        android:textAllCaps="false"
+                        android:layout_margin="5dp"
+                        android:text="@string/paperfeddingtest"
+                        android:background="@drawable/clors_btn"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        />
+                </LinearLayout>
+<!--
+android:background="@drawable/listitemselector"
+ -->
+            </LinearLayout>
+
+            
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

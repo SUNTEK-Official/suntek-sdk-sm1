@@ -1,0 +1,9 @@
+<!-- res/drawable/button_selector.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 当按钮被按下时的背景 -->
+    <item android:drawable="@color/button_pressed_color" android:state_pressed="true" />
+    <!-- 当按钮获得焦点时的背景 -->
+    <item android:drawable="@color/button_focused_color" android:state_focused="true" />
+    <!-- 默认的背景 -->
+    <item android:drawable="@color/button_normal_color" />
+</selector>

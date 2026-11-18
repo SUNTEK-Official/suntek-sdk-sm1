@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/print_title_msg"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.szanfu.sdk.test.view.HandwritingBoardView
+            android:id="@+id/ll_sign_panel"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:text="Hello World!" />
+
+
+        <!-- 可在此修改颜色和线宽 -->
+        <!-- 颜色和和线宽是在attrs.xml中自定义的 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_sign_confirm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onConfirmClick"
+                android:text="@string/print_handwrite_commit"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@id/btn_redo"
+                app:layout_constraintTop_toBottomOf="@id/ll_sign_panel"
+                android:background="@drawable/btn_roundness_selector"
+                />
+
+            <Button
+                android:id="@+id/btn_redo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:onClick="redo"
+                android:text="@string/print_handwrite_rewrite"
+                android:background="@drawable/btn_roundness_selector"
+                app:layout_constraintLeft_toRightOf="@id/btn_sign_confirm"
+                app:layout_constraintRight_toLeftOf="@id/btn_undo"
+                app:layout_constraintTop_toBottomOf="@id/ll_sign_panel" />
+
+            <Button
+                android:id="@+id/btn_undo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:onClick="undo"
+                android:text="@string/print_handwrite_backspace"
+                app:layout_constraintLeft_toRightOf="@id/btn_redo"
+                app:layout_constraintRight_toLeftOf="@id/btn_sign_cancel"
+                app:layout_constraintTop_toBottomOf="@id/ll_sign_panel"
+                android:background="@drawable/btn_roundness_selector"
+                />
+
+            <Button
+                android:id="@+id/btn_sign_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:onClick="onCancelClick"
+                android:text="@string/print_handwrite_cancle"
+                app:layout_constraintLeft_toRightOf="@id/btn_undo"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ll_sign_panel"
+                android:background="@drawable/btn_roundness_selector"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

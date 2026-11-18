@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义无标题栏主题 -->
+    <style name="NoTitleBarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- 去掉标题栏 -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- 可选：去掉状态栏 -->
+        <!-- <item name="android:windowFullscreen">true</item> -->
+    </style>
+</resources>

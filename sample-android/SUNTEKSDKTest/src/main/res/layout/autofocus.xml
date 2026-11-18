@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#943461"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/tv_selected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+    android:id="@+id/ll_continuous_video_mode"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="#17adec"
+        android:layout_marginTop="20dp"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="continuous-video Mode"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_continuous_picture_mode"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#17adec"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="continuous-picture Mode"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_auto_mode"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#17adec"
+        android:layout_marginTop="15dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="auto Mode"/>
+    </LinearLayout>
+
+
+</LinearLayout>

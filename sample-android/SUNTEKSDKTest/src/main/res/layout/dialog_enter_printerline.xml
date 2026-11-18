@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+ 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="#169ee5"
+        android:gravity="center"
+        android:text="Set the printer to run paper"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+ 
+ 
+	<EditText
+		android:id="@+id/et_printer_line"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="10dp"
+		android:layout_marginRight="10dp"
+		android:gravity="center"
+		android:inputType="number"
+		android:textCursorDrawable="@null"
+		android:maxLength="12"
+		android:hint=""
+		android:background="@null"
+		android:textSize="32sp"
+		android:text="1"
+		android:digits="1234567890"
+ />
+	
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+ 
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#169ee5"
+            android:text="Cancel"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+ 
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#169ee5"
+            android:text="OK"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>
+ 

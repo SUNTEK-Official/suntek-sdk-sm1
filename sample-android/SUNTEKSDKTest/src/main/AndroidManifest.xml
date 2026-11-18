@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.szanfu.sdk.test"
+    >
+    <!--
+    android:sharedUserId="android.uid.mdm">
+    -->
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- permission for WiFI post processing,not for scankit itself -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- camera permission -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- read permission for Bitmap Mode -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- write permission for save QRCODE Bitmap,not for scankit itself -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 添加安全磁盘区权限（如果SDK定义了） -->
+    <uses-permission android:name="android.permission.READ_SAFE_DISK" />
+    <uses-permission android:name="android.permission.WRITE_SAFE_DISK" />
+    <!-- 读取系统状态（获取CPU信息必须声明） -->
+    <uses-permission android:name="android.permission.READ_SYSTEM_STATS" />
+    <!-- 可选：网络权限（调试/日志使用） -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- 必须加：获取使用状态权限 -->
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+
+    <!-- 语音识别权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!-- Android 12+ 前台服务权限 -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+    <!-- 支持语音识别 -->
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="true" />
+    <!-- 语音识别 必加权限 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- 定位权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Android 13 后台定位 -->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AFSystemCoreServer">
+        <activity
+            android:name=".CameraActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".MainSerinalActivity" />
+        <activity android:name=".activity.MTKActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.AidActivity" />
+        <activity android:name=".activity.AidInterfaceActivity" />
+        <activity android:name=".activity.AidListActivity" />
+        <activity android:name=".activity.CapkListActivity" />
+        <activity android:name=".activity.TestActivity" />
+        <activity android:name=".activity.CapkActivity" />
+        <activity android:name=".activity.CapkInterfaceActivity" />
+        <activity android:name=".activity.SystemServiceActivity" />
+        <activity android:name=".activity.LCDSecondaryDisplayScreenActivity" />
+        <activity android:name=".activity.ThreadActivity" />
+        <activity android:name=".activity.SystemServiceMtkActivity" />
+        <activity android:name=".activity.CardServiceActivity" />
+        <activity android:name=".activity.PressureDivActivity" />
+        <activity android:name=".activity.PressureActivity" />
+        <activity android:name=".activity.PressureGoneActivity" />
+        <activity android:name=".activity.PrinterServiceActivity" />
+        <activity android:name=".activity.EmvKernelServiceActivity" />
+        <activity android:name=".activity.PinPadServiceActivity" />
+        <activity android:name=".activity.QrcodeActivity" />
+        <activity android:name=".activity.qrscancode.QrCodeMainActivity" />
+        <activity android:name=".activity.qrscancode.QRScanDivActivity" />
+        <activity
+            android:name=".activity.qrscancode.ZXingScannerActivity"
+            android:launchMode="standard" />
+        <activity android:name=".activity.qrscancode.GenerateQRCodeActivity" />
+        <activity android:name=".activity.DUKPTActivity_final" />
+        <activity android:name=".activity.DukptActivity" />
+        <activity android:name=".activity.TR31Activity" />
+        <activity android:name=".activity.SSLServiceActivity" />
+        <activity android:name=".activity.SimCardActivity" />
+        <activity android:name=".activity.MTKSimCardManagerActivity" />
+        <activity android:name=".activity.SimCardDivActivity" />
+        <activity android:name=".activity.SimSetActivity" />
+        <activity android:name=".activity.ApnActivity" />
+        <activity
+            android:name=".hmscorescan.HmsMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hmscorescan.CommonActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hmscorescan.HWDefinedActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hmscorescan.GenerateCodeActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hmscorescan.DisPlayActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hmscorescan.DisPlayMulActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SamCardServiceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.sign.SignatureActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleBarTheme"
+            />
+        <activity
+            android:name=".activity.sign.SignMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ScanByHWActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.Camera2Activity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.QrScanActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.mycamera.CameraActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.scans.MainScansActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.scans.SettingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PermisionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PhysicalKeyboardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+
+
+
+        <activity android:name=".activity.CmacTestActivity" />
+
+        <!-- 注册语音服务 -->
+        <service
+            android:name="com.szanfu.sdk.test.service.VoiceCommandService"
+            android:foregroundServiceType="microphone"
+            android:exported="false"/>
+
+        <activity
+            android:name=".activity.VoiceRecognitionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+
+
+
+
+    </application>
+
+</manifest>

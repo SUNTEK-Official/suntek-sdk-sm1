@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SimSetActivity"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/sim1_check_result"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_border_div"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/blue_af" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/btn_sim1_divlock"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:text="Lock"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/btn_roundness_selector"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <TextView
+                android:id="@+id/btn_sim1_divunlock"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_roundness_selector"
+                android:gravity="center"
+                android:text="UnLock"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/btn_sim1_div_Update"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:text="PINUpdate"
+                android:gravity="center"
+                android:background="@drawable/btn_roundness_selector"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/sim2_check_result"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_text_border_div"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/blue_af" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/btn_sim2_divlock"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:text="Lock"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/btn_roundness_selector"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+            <TextView
+                android:id="@+id/btn_sim2_divunlock"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:text="UnLock"
+                android:gravity="center"
+                android:background="@drawable/btn_roundness_selector"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                />
+
+            <TextView
+                android:id="@+id/btn_sim2_div_Update"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:text="PINUpdate"
+                android:gravity="center"
+                android:background="@drawable/btn_roundness_selector"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_check"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_roundness_selector"
+        android:gravity="center"
+        android:text="check SIMCard State"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+rootProject.name = "AFSDKTest"
+include ':SUNTEKSDKTest'
+include ':zxing'
+include ':SystemLib'

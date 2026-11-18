@@ -1,0 +1,16 @@
+static def addCommonMaven(RepositoryHandler handler) {
+ // https://repo.maven.apache.org/mvn/guide
+    handler.maven { url 'https://repo.maven.apache.org/maven2' }
+    handler.maven { url 'https://maven.google.com' }
+ // https://repo.maven.apache.org
+    handler.maven { url 'https://maven.google.com' }
+ // JitPack : https://jitpack.io
+    handler.maven { url 'https://jitpack.io' }
+ // MavenCentral : https://mvnrepository.com
+    handler.mavenCentral()
+    handler.google()
+    // noinspection JcenterRepositoryObsolete
+    handler.mavenCentral()
+}
+
+ext.addCommonMaven = this.&addCommonMaven

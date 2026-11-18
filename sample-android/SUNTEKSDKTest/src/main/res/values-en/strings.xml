@@ -1,0 +1,345 @@
+<resources>
+    <string name="app_name">SDK Test</string>
+
+    <string name="clear">Clear Text</string>
+    <string name="end_result_devicestype">Device system image version is debugging prototype; </string>
+    <string name="end_result_devicestype_release">Device system image version for production tools; </string>
+    <string name="end_result_code">End, result code:</string>
+    <string name="failed_result_code">End, result code:</string>
+    <string name="firmware_loading">Firmware loading</string>
+    <string name="firmware_update">The firmware is loaded successfully, and the update begins</string>
+    <string name="end_sn">End, sn:</string>
+    <string name="end_tusn">End, tusn:</string>
+    <string name="result_code">, result code:</string>
+
+    <string name="session_ksn">KSN:</string>
+    <string name="pinpad_select_keypad_layout">Select Keypad Layout</string>
+
+    <!--    =================================         -->
+    <string name="open_emv_card_search_results">Open EMV card search results:</string>
+    <string name="disable_emv_card_search">Disable EMV card search</string>
+    <string name="closing_the_emv_card_search_result">Closing the EMV card search result:</string>
+    <string name="start_looking_for_a_card">Start looking for a card...</string>
+    <string name="the_card_type_is_searched_successfully">The Card Type is searched :</string>
+    <string name="succeed">Card search is successful! </string>
+    <string name="printesucceed">Print complete.</string>
+    <string name="start_contact_search_card">Start contact search card</string>
+    <string name="start_contact_cancle_card">Cancle transaction !</string>
+    <string name="searching_time_out">Searching time out</string>
+    <string name="card_search_failed_ret">Card search failed, ret:</string>
+    <string name="please_wait_a_moment_for_transaction_processing">Please wait a moment to begin transaction processing: </string>
+    <string name="start_a_search_rf_card">Start a search RF card </string>
+    <string name="finish">finish </string>
+
+
+
+    <string name="scan_showresult">Scan results will show on screen</string>
+    <string name="copy_toast">Content has been copied</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="connect_network">Connet to network</string>
+    <string name="open_browser">Open in browser</string>
+    <string name="copy">Copy</string>
+    <string name="add_calendar">Add to calendar</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="send_email">Send Email</string>
+    <string name="nivigation">Nivigation</string>
+    <string name="call">Call</string>
+    <string name="mwc_title">HMS Core Scan Kit Demo</string>
+    <string name="mwc_subject">About Scan Kit</string>
+    <string name="mwc_detail">An in-app scanner for 1D and 2D barcodes connects your app to real-world scenarios and helps you build powerful code scanning capabilities with a minimum of 5 lines of code.</string>
+    <string name="generate_QR_code">Generate QR Code</string>
+    <string name="multiProcessor_api_asyn_decode">MultiProcessor API Asynchronous Mode</string>
+    <string name="multiProcessor_api_syn_decode">MultiProcessor API Synchronous Mode</string>
+    <string name="bitmap_api_decode">Bitmap Mode</string>
+    <string name="customized_view_decode">Customized View Mode</string>
+    <string name="default_view_decoe">Default View Mode</string>
+    <string name="barcode_content">Barcode Content:</string>
+    <string name="barcode_width">Barcode width:</string>
+    <string name="width_value">700</string>
+    <string name="barcode_height">Barcode height:</string>
+    <string name="height_value">700</string>
+    <string name="barcode_type">Type:</string>
+    <string name="barcode_margin">Margin:</string>
+    <string name="barcode_color">Color:</string>
+    <string name="barcode_backgroundcolor">Background:</string>
+    <string name="generate_barcode">Generate Barcode</string>
+    <string name="save_barcode">Save Barcode</string>
+    <string name="title_result">Result</string>
+    <string name="title">Scan</string>
+    <string name="scan_tip">Place the code within the frame</string>
+    <string name="result_type">Result Type</string>
+    <string name="result_content">Result</string>
+    <string name="code_format">Code Format</string>
+    <string name="code_printer_busy">Print service busy, please try again later;</string>
+    <string name="code_printer_empty">The printer is short of paper, please add paper to the printer;</string>
+    <string name="code_printer_batterylow">The battery power is less than 20%, do not support printing vouchers;</string>
+    <string name="signature_cannot_be_empty">Signature cannot be empty</string>
+    <string name="signature_too_simple">The signature is too simple, please sign again</string>
+    <string name="signature_too_complex">The signature is too complex, please sign again</string>
+    <string name="scan_framework">Scan framework</string>
+    <string name="print_title_msg">Please sign by hand in the signature area below</string>
+    <string name="print_handwrite_commit">Commit</string>
+    <string name="print_handwrite_rewrite">Rewrite</string>
+    <string name="print_handwrite_backspace">Backspace</string>
+    <string name="print_handwrite_cancle">Cancle</string>
+    <string name="print_serviceerror">Failed to obtain the print service. Please check the service</string>
+    <string name="signature">Signature</string>
+    <string name="title_scan">Scan the QR code</string>
+    <string name="scan_generate">generate</string>
+    <string name="scan_tocheck">Long press to identify the image QR code</string>
+    <string name="input_text">Input text</string>
+    <string name="click_to_generate">Click to generate</string>
+    <string name="scan_the_code">scan the code</string>
+    <string name="scan_the_code_auto">Align QR code and scan automatically</string>
+
+    <string name="service_acquisition_failed">CardService bind failed!</string>
+    <string name="gac1_approve">Approve</string>
+    <string name="gac1_deny">Deny</string>
+    <string name="gac1_online_request">Online request</string>
+    <string name="gac1_end_application">End application</string>
+    <string name="gac1_select_next">Select next</string>
+    <string name="gac1_try_another_interface">Try another interface</string>
+    <string name="gac1_retry">Retry</string>
+    <string name="gac1_reverse">Reverse</string>
+    <string name="gac1_na">N/A</string>
+    <string name="err_kernel_restart">The terminal is powered off and has no interface. Wait 1000-1500ms</string>
+
+    <!--   打印按钮 -->
+    <string name="printBitmap">Print Bitmap</string>
+    <string name="handsignature">Hand signature </string>
+    <string name="locallyacquiredpicture">Locally acquired picture </string>
+    <string name="bold_printing">Bold Printing</string>
+    <string name="batterylevel">Battery level </string>
+    <string name="dal_thermalprintsetdepth">Set Printer Printing Depth </string>
+    <string name="dal_thermalprintgetstatus">Get Printer Status </string>
+    <string name="paperfeddingtest">Set Printer Paper Feed</string>
+    <string name="msrcardtest">MSR Card Test</string>
+    <string name="iccardtest">IC Card Test</string>
+    <string name="nfccardtest">BFC Card Test</string>
+
+    <!--   打印按钮 -->
+    <string name="pressuremsg">Do not exit this page during the stress test. If you exit this page by mistake, you need to perform the test task again.</string>
+    <string name="task_success">Task executed successfully:</string>
+    <string name="task_failed">Failed to execute the task :</string>
+    <string name="task_count">Total execution task:</string>
+    <string name="task_print">Print Bitmap</string>
+    <string name="task_Buzzer_test">Buzzer test</string>
+    <string name="task_Fill_light_test">Fill light test</string>
+    <string name="task_pressure">During the stress test, wait until the last task is completed before making a request.</string>
+    <string name="task_pressure_backup">During the pressure test, keep the screen steady on and do not exit the application to the background;.</string>
+    <string name="num_to_run">Num to run :</string>
+    <string name="task_interval_time">Interval time :</string>
+    <string name="system_memory_cleanup">System memory cleanup ： </string>
+    <string name="check_execution_result_task">Check the execution result of the task  </string>
+    <string name="execution_result_task">Task execution result information：  </string>
+    <string name="screen_off_screen_and_on_screen_test">Screen off-screen and on-screen test  </string>
+    <string name="task_interval">Task execution interval:  </string>
+    <string name="scanning_method">Scanning method:  </string>
+    <string name="memory_usage_rate">Memory usage rate :  </string>
+    <string name="task_execution">Task execution :  </string>
+    <string name="needtoRunCount">The number of tasks that need to be executed :  </string>
+
+
+<!--    SIM-->
+    <string name="noSIMcard">status:0 无SIM卡  </string>
+    <string name="simavailable">status:1 SIM卡就绪  </string>
+    <string name="simPINLocked">status:2 SIM卡被PIN码锁定  </string>
+    <string name="simPUKLocked">status:3 SIM卡被PUK码锁定  </string>
+    <string name="simnetLocked">status:4 SIM卡被网络锁锁定  </string>
+    <string name="simUndifind">status:5 SIM卡状态未知  </string>
+    <string name="simXXXX">XXXXXX  </string>
+    <string name="editext_input">Please enter the SAM card to be operated on  </string>
+
+    <string name="apn_get_allapndata">Get all APN configurations  </string>
+    <string name="apn_get_default">Get default APN configuration  </string>
+    <string name="apn_add_sim1">Add APN to SIM1  </string>
+    <string name="apn_add_sim2">Add APN to SIM2  </string>
+    <string name="apn_set_defalut">Set default APN  </string>
+    <string name="apn_clean_log">Clean Log </string>
+
+
+    <string name="apn_openusb_port">Please open the USB port device node first </string>
+    <string name="apn_set_port_success">The USB properties were set successfully </string>
+    <string name="apn_set_port_error">Failed to set the USB properties </string>
+    <string name="apn_set_node_port_error">The USB node is illegal. Please confirm the USB node first </string>
+    <string name="apn_Indicates_read_failure_error"> Indicates read failure </string>
+    <string name="apn_Indicates_read_no_more"> There is no more data to read </string>
+    <string name="apn_Indicates_read_success"> The number of bytes of data successfully read </string>
+
+    <string name="lcd_tag">[LCD]</string>
+    <string name="lcd_start">START</string>
+    <string name="lcd_end">END</string>
+    <string name="lcd_abort_null">Abort: lcd/info null</string>
+    <string name="lcd_abort_size">Abort: invalid size %1$dx%2$d</string>
+    <string name="lcd_invalid_count">Invalid count=%1$d</string>
+    <string name="lcd_invalid_time_ms">Invalid timeMs=%1$d</string>
+
+    <string name="lcd_mode_count">COUNT</string>
+    <string name="lcd_mode_time_ms">TIME(ms)</string>
+
+    <string name="lcd_log_start_line">%1$s %2$s %3$dx%4$d %5$s=%6$d</string>
+    <string name="lcd_log_loop_line">%1$s loop=%2$d avg=%3$dms fail=%4$d ret=%5$d</string>
+    <string name="lcd_log_end_line">%1$s total=%2$d ok=%3$d fail=%4$d avg=%5$dms lastRet=%6$d</string>
+
+    <string name="lcd_log_ex">EX: %1$s</string>
+    <!--   ************************************************************  -->
+    <string name="tapToScan">Tap To Scan</string>
+    <string name="barcodeResult">Barcode:</string>
+    <string name="symbology">Symbology:</string>
+    <string name="action_version">Version</string>
+    <string name="versionTitle">Versions</string>
+    <string name="versionPositive">Close</string>
+
+    <string name="action_scanmode_to_normal">To Normal</string>
+    <string name="action_scanmode_to_continue">To Continue</string>
+    <string name="promptChangeScanMode">Switching scan mode successfully.</string>
+    <string name="configCodeType">config codeType</string>
+    <string name="switchFocusMode">switch Focus Mode</string>
+
+    <string name="versionTitle1">Switch Focus Mode</string>
+    <string name="pressMsg">Note: Re-executing the latest stress test will clear the historical test data and re-record the local test data~~~</string>
+    <string name="pressMsg_done">Mission completed :</string>
+    <string name="select_sam">Please select the SAM card you wish to operate:</string>
+    <string name="samcard_check">Check if there is a SAM card present</string>
+    <string name="samcard_poweron">Power on the SAM card</string>
+    <string name="samcard_cmd">SAM card communication APDU command</string>
+    <string name="samcard_poweoff">Power off the SAM card</string>
+
+
+    <string name="usb_permision_successful">USB temporary authorization successful</string>
+    <string name="usb_permision_failed">USB temporary authorization failed</string>
+    <string name="clear_usb_permision_successful">USB Permission clearance successful</string>
+    <string name="clear_usb_permision_failed">USB Permission clearance failed</string>
+
+    <string name="pop_up_windows_successful">This application can access all USB devices without any pop-up windows: Success</string>
+    <string name="pop_up_windows__failed">This application can access all USB devices without any pop-up windows. : Failure</string>
+
+    <string name="all_pop_up_windows_successful">This application can access all USB devices without any pop-up windows: Success </string>
+    <string name="all_pop_up_windows__failed">This application can access all USB devices without any pop-up windows: Failure</string>
+    <string name="clear_all_pop_up_windows_failed">Remove all USB permissions for this application:</string>
+
+    <string name="all_dangerous_permissions_success">✅ Authorization successful.</string>
+    <string name="all_dangerous_permissions_failed">❌ Authorization failed.</string>
+
+
+    <string name="setpoewerManager_permissions_success">Set Power Manager Authorization: Success</string>
+    <string name="setpoewerManager_permissions_failed">Set Power Manager Authorization: Failed</string>
+
+    <string name="cancle_poewerManager_permissions_success"> Cancel Power Manager Authorization: Success</string>
+    <string name="cancle_poewerManager_permissions_failed">Cancel Power Manager Authorization: Failed</string>
+
+    <string name="Set_Remote_permissions_success"> Set Remote Control Permission Authorization: Success  </string>
+    <string name="Set_Remote_permissions_failed">Set Remote Control Permission Authorization: Failed</string>
+
+    <string name="cancle_Remote_permissions_success"> Set Remote Control Permission Authorization: Success </string>
+    <string name="cancle_Remote_permissions_failed">Set Remote Control Permission Authorization: Failed</string>
+
+    <string name="Set_permanent_floating_window_permissions_success"> Set permanent floating window permission: Success </string>
+    <string name="Set_permanent_floating_window_permissions_failed">Set permanent floating window permission: Failed</string>
+
+    <string name="check_permissions_success"> The application already exists.</string>
+    <string name="check_permissions_failed">The application is no longer in use.</string>
+
+    <string name="ObtainAbnormalVolumeInformation">Obtain abnormal volume information</string>
+    <string name="sdkServiceErrorVold">The SDK service is not connected, so the volume cannot be adjusted.</string>
+    <string name="getLightError">Obtain abnormal brightness</string>
+
+
+
+
+
+    <string name="system_key_service_not_connected">System service is not connected</string>
+    <string name="system_key_map_result">getKeyMap result: %1$s</string>
+    <string name="system_remove_key_title">Remove key index</string>
+    <string name="system_remove_key_message">Enter an M/S or DUKPT key index (2 ~ 30).</string>
+    <string name="system_remove_key_hint">2 ~ 30</string>
+    <string name="system_remove_key_action">Remove</string>
+    <string name="system_remove_key_invalid_integer">Enter an integer from 2 to 30</string>
+    <string name="system_remove_key_invalid_range">Valid range: 2 ~ 30</string>
+    <string name="system_remove_key_request">removeKey keyIndex: %1$d</string>
+    <string name="system_remove_key_result">removeKey result: %1$d</string>
+    <string name="system_enter_pan_test">Enter PAN</string>
+    <string name="system_dukpt_get_card_data_test">Get plaintext card data</string>
+    <string name="system_clear_temp_card_data_test">Clear temporary card data</string>
+    <string name="system_clear_temp_card_data_result">clearTemporaryCardData result: %1$d</string>
+    <string name="system_enter_pan_title">Enter PAN parameters</string>
+    <string name="system_enter_pan_need_expired_date">Require expiration date (MM/YY)</string>
+    <string name="system_enter_pan_random_keyboard">Randomize on-screen numeric keyboard</string>
+    <string name="system_enter_pan_check_checksum">Check PAN checksum (Luhn)</string>
+    <string name="system_enter_pan_min_length">Minimum PAN length (12 ~ 19)</string>
+    <string name="system_enter_pan_max_length">Maximum PAN length (12 ~ 19)</string>
+    <string name="system_enter_pan_timeout">Input timeout in seconds (5 ~ 180)</string>
+    <string name="system_enter_pan_min_greater_than_max">Minimum PAN length cannot exceed maximum PAN length</string>
+    <string name="system_enter_pan_request">enterPAN request: needExpiredDate=%1$b, min=%2$d, max=%3$d, timeout=%4$ds, randomKeyboard=%5$b, checkPanChecksum=%6$b</string>
+    <string name="system_enter_pan_result">enterPAN result: %1$d (%2$s)</string>
+    <string name="system_enter_pan_success">Success</string>
+    <string name="system_enter_pan_timed_out">Timed out</string>
+    <string name="system_enter_pan_cancelled">Cancelled manually</string>
+    <string name="system_enter_pan_failed">Failed</string>
+    <string name="system_enter_pan_unknown">Unknown result</string>
+    <string name="system_dukpt_card_data_title">Plaintext card data parameters</string>
+    <string name="system_dukpt_card_data_type">Plaintext card data type</string>
+    <string name="system_card_data_pan">1 - PAN</string>
+    <string name="system_card_data_track2">2 - Track 2</string>
+    <string name="system_card_data_track3">3 - Track 3</string>
+    <string name="system_card_data_masked_pan">4 - Masked PAN</string>
+    <string name="system_card_data_expired_date">5 - Expiration date</string>
+    <string name="system_dukpt_key_index">DUKPT key index (11 ~ 30)</string>
+    <string name="system_dukpt_key_type">DUKPT key type</string>
+    <string name="system_dukpt_key_type_pin">1 - PIN Encryption</string>
+    <string name="system_dukpt_key_type_dek_both">4 - Data Encryption, request or both ways</string>
+    <string name="system_dukpt_key_type_dek_resp">5 - Data Encryption, response</string>
+    <string name="system_dukpt_iv">IV (8 bytes, 16 hex characters)</string>
+    <string name="system_dukpt_iv_invalid">Enter exactly 8 bytes as 16 hex characters</string>
+    <string name="system_dukpt_enc_mode">Encryption mode</string>
+    <string name="system_dukpt_enc_mode_des_ecb">0x11 - DES_ECB_ENC</string>
+    <string name="system_dukpt_enc_mode_des_cbc">0x21 - DES_CBC_ENC</string>
+    <string name="system_dukpt_enc_mode_tdes_ecb">0x41 - TDES_ECB_ENC</string>
+    <string name="system_dukpt_enc_mode_tdes_cbc">0x81 - TDES_CBC_ENC</string>
+    <string name="system_dukpt_padding_mode">Padding mode</string>
+    <string name="system_dukpt_padding_00">1 - Padding 0x00</string>
+    <string name="system_dukpt_padding_80">2 - Padding 0x80 then 0x00</string>
+    <string name="system_dukpt_padding_ff">3 - Padding 0xFF</string>
+    <string name="system_dukpt_padding_pkcs5">4 - PKCS5 Padding</string>
+    <string name="system_dukpt_key_offset">Key offset</string>
+    <string name="system_dukpt_key_offset_default">keyOffset uses default 0.</string>
+    <string name="system_dukpt_masked_left_digits">Masked PAN retained left digits (0 ~ 19)</string>
+    <string name="system_dukpt_masked_right_digits">Masked PAN retained right digits (0 ~ 19)</string>
+    <string name="system_dukpt_plaintext_note">This API only returns masked PAN or expiration date. Masked PAN always uses four asterisks.</string>
+    <string name="system_dukpt_card_data_request">getPlaintextCardData request: dataType=%1$d, maskedLeft=%2$d, maskedRight=%3$d</string>
+    <string name="system_dukpt_card_data_result">getPlaintextCardData result/source length: %1$d</string>
+    <string name="system_dukpt_encrypted_pan">Encrypted PAN: %1$s</string>
+    <string name="system_dukpt_masked_pan">Masked PAN: %1$s</string>
+    <string name="system_dukpt_encrypted_track2">Encrypted Track 2: %1$s</string>
+    <string name="system_dukpt_encrypted_track3">Encrypted Track 3: %1$s</string>
+    <string name="system_dukpt_expired_date">Expiration date: %1$s</string>
+    <string name="system_invalid_integer">Enter a valid integer</string>
+    <string name="system_value_range_error">Valid range: %1$d ~ %2$d</string>
+    <!-- 屏幕超时选项数组 -->
+    <string-array name="screen_timeout_entries">
+        <item>永不</item>
+        <item>15 秒</item>
+        <item>30 秒</item>
+        <item>1 分钟</item>
+        <item>2 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>30 分钟</item>
+        <!-- 👇 你自己新增的一项 -->
+        <item>自定义 1 小时</item>
+    </string-array>
+
+    <!-- 对应的值数组（和上面的选项一一对应） -->
+    <integer-array name="screen_timeout_values">
+        <item>2147483647</item> <!-- 永不，对应 Integer.MAX_VALUE -->
+        <item>15000</item>      <!-- 15 秒 -->
+        <item>30000</item>      <!-- 30 秒 -->
+        <item>60000</item>      <!-- 1 分钟 -->
+        <item>120000</item>     <!-- 2 分钟 -->
+        <item>300000</item>     <!-- 5 分钟 -->
+        <item>600000</item>     <!-- 10 分钟 -->
+        <item>1800000</item>    <!-- 30 分钟 -->
+        <item>3600000</item>    <!-- 👇 对应上面新增的 1 小时 -->
+    </integer-array>
+    <!--    SIM-->
+</resources>

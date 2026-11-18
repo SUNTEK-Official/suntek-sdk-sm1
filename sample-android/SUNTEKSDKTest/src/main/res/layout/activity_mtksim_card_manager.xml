@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- SIM卡选择 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="选择SIM卡槽"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radio_sim_slot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_sim1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="SIM 1" />
+
+            <RadioButton
+                android:id="@+id/radio_sim2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SIM 2" />
+        </RadioGroup>
+
+        <!-- PIN码操作 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="PIN码操作"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_check_pin_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="检查PIN状态" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_current_pin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="当前PIN码"
+                android:inputType="numberPassword" />
+
+            <Button
+                android:id="@+id/btn_verify_pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="验证PIN" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_new_pin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="新PIN码"
+                android:inputType="numberPassword" />
+
+            <Button
+                android:id="@+id/btn_change_pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改PIN" />
+        </LinearLayout>
+
+        <!-- PUK码解锁 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="PUK码解锁"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_puk_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PUK码"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_new_pin_puk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="新PIN码"
+            android:inputType="numberPassword" />
+
+        <Button
+            android:id="@+id/btn_unlock_with_puk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PUK解锁" />
+
+        <!-- PIN码锁定控制 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="PIN码锁定控制"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_enable_pin_lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="启用PIN锁定" />
+
+        <Button
+            android:id="@+id/btn_disable_pin_lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="禁用PIN锁定" />
+
+        <!-- 状态显示 -->
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#f0f0f0"
+            android:padding="8dp"
+            android:text="状态信息将显示在这里"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,379 @@
+<resources>
+    <string name="app_name">接口测试</string>
+
+    <string name="clear">Clear Text</string>
+    <!--   ======================================== -->
+
+    <string name="end_result_devicestype">设备系统镜像版本为调试样机； </string>
+    <string name="end_result_devicestype_release">设备系统镜像版本为生产机具； </string>
+    <string name="end_result_code">结束, 结果码: </string>
+    <string name="failed_result_code">失败, 结果码:</string>
+    <string name="firmware_loading">固件加载中</string>
+    <string name="firmware_update">固件加载成功，开始更新</string>
+    <string name="end_sn">结束, sn:</string>
+    <string name="end_tusn">结束, tusn:</string>
+    <string name="result_code">, 结果码: </string>
+    <string name="session_ksn">KSN:</string>
+    <string name="pinpad_select_keypad_layout">选择键盘布局</string>
+    <!--   ======================================== -->
+    <string name="open_emv_card_search_results">打开EMV寻卡结果：</string>
+    <string name="disable_emv_card_search">关闭EMV寻卡：</string>
+    <string name="closing_the_emv_card_search_result">关闭EMV寻卡结果：</string>
+    <string name="start_looking_for_a_card">开始寻卡...</string>
+    <string name="the_card_type_is_searched_successfully">寻卡  Card Type:</string>
+    <string name="succeed">寻卡测试完成</string>
+    <string name="printesucceed">打印完成</string>
+    <string name="start_contact_search_card">开始接触式寻卡</string>
+    <string name="start_contact_cancle_card">取消交易</string>
+    <string name="searching_time_out">寻卡超时</string>
+    <string name="card_search_failed_ret">寻卡失败，ret: </string>
+    <string name="please_wait_a_moment_for_transaction_processing">开始交易处理，请稍候 </string>
+    <string name="start_a_search_rf_card">开始非接寻卡 </string>
+    <string name="finish">结束 </string>
+
+
+    <string name="scan_showresult">Scan results will show on screen</string>
+    <string name="copy_toast">Content has been copied</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="connect_network">Connet to network</string>
+    <string name="open_browser">Open in browser</string>
+    <string name="copy">Copy</string>
+    <string name="add_calendar">Add to calendar</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="send_email">Send Email</string>
+    <string name="nivigation">Nivigation</string>
+    <string name="call">Call</string>
+    <string name="mwc_title">HMS Core Scan Kit Demo</string>
+    <string name="mwc_subject">About Scan Kit</string>
+    <string name="mwc_detail">An in-app scanner for 1D and 2D barcodes connects your app to real-world scenarios and helps you build powerful code scanning capabilities with a minimum of 5 lines of code.</string>
+    <string name="generate_QR_code">Generate QR Code</string>
+    <string name="multiProcessor_api_asyn_decode">MultiProcessor API Asynchronous Mode</string>
+    <string name="multiProcessor_api_syn_decode">MultiProcessor API Synchronous Mode</string>
+    <string name="bitmap_api_decode">Bitmap Mode</string>
+    <string name="customized_view_decode">Customized View Mode</string>
+    <string name="default_view_decoe">Default View Mode</string>
+    <string name="barcode_content">Barcode Content:</string>
+    <string name="barcode_width">Barcode width:</string>
+    <string name="width_value">700</string>
+    <string name="barcode_height">Barcode height:</string>
+    <string name="height_value">700</string>
+    <string name="barcode_type">Type:</string>
+    <string name="barcode_margin">Margin:</string>
+    <string name="barcode_color">Color:</string>
+    <string name="barcode_backgroundcolor">Background:</string>
+    <string name="generate_barcode">Generate Barcode</string>
+    <string name="save_barcode">Save Barcode</string>
+    <string name="title_result">Result</string>
+    <string name="title">Scan</string>
+    <string name="scan_tip">Place the code within the frame</string>
+    <string name="result_type">Result Type</string>
+    <string name="result_content">Result</string>
+    <string name="code_format">Code Format</string>
+    <string name="code_printer_busy">打印服务忙，请稍后再试；</string>
+    <string name="code_printer_empty">打印机缺纸，请给打印机加纸；</string>
+    <string name="code_printer_batterylow">电池电量低于20%，不支持打印凭条；</string>
+    <string name="signature_cannot_be_empty">电子签名不能为空</string>
+    <string name="signature_too_simple">签名过于简单，请重签</string>
+    <string name="signature_too_complex">签名过于复杂，请重签</string>
+    <string name="scan_framework">扫码框架</string>
+    <string name="print_title_msg">请在下方签字区内手写签字</string>
+    <string name="print_handwrite_commit">确定</string>
+    <string name="print_handwrite_rewrite">重写</string>
+    <string name="print_handwrite_backspace">回退</string>
+    <string name="print_handwrite_cancle">取消</string>
+    <string name="print_serviceerror">打印服务获取失败，请检查该服务</string>
+    <string name="signature">签名</string>
+    <string name="title_scan">扫描二维码</string>
+    <string name="scan_generate">生成</string>
+    <string name="scan_tocheck">长按识别图片二维码</string>
+    <string name="input_text">输入文字</string>
+    <string name="click_to_generate">点击生成</string>
+    <string name="scan_the_code">扫码</string>
+    <string name="scan_the_code_auto">对准二维码，自动扫描</string>
+
+    <string name="service_acquisition_failed">CardService bind failed！</string>
+    <string name="gac1_approve">Approve</string>
+    <string name="gac1_deny">Deny</string>
+    <string name="gac1_online_request">Online request</string>
+    <string name="gac1_end_application">End application</string>
+    <string name="gac1_select_next">Select next</string>
+    <string name="gac1_try_another_interface">Try another interface</string>
+    <string name="gac1_retry">Retry</string>
+    <string name="gac1_reverse">Reverse</string>
+    <string name="gac1_na">N/A</string>
+    <string name="err_kernel_restart">The terminal is powered off and has no interface. Wait 1000-1500ms</string>
+
+    <!--   打印按钮 -->
+    <string name="printBitmap">打印Bitmap</string>
+    <string name="handsignature">手写签名</string>
+    <string name="locallyacquiredpicture">本地获取图片</string>
+    <string name="bold_printing">加粗打印</string>
+    <string name="batterylevel">电池电量</string>
+    <string name="dal_thermalprintsetdepth">设置打印机打印深度</string>
+    <string name="dal_thermalprintgetstatus">获取打印机状态</string>
+    <string name="paperfeddingtest">设置打印机走纸</string>
+    <string name="msrcardtest">磁条卡测试</string>
+    <string name="iccardtest">IC Card Test</string>
+    <string name="nfccardtest">非接卡测试</string>
+
+    <!--   打印按钮 -->
+    <string name="pressuremsg">进行压力测试过程中请勿退出该页面，如误操作退出该页面，再次进入需要重新执行测试任务；</string>
+    <string name="task_success">执行任务成功:</string>
+    <string name="task_failed">执行任务失败:</string>
+    <string name="task_count">总计执行任务:</string>
+    <string name="task_print">Print Bitmap</string>
+    <string name="task_Buzzer_test">蜂鸣器测试</string>
+    <string name="task_Fill_light_test">补光灯测试</string>
+    <string name="task_pressure">压力测试中，请等待上次任务执行完后再请求；.</string>
+    <string name="task_pressure_backup">压力测试过程中，请保持屏幕常亮且勿退出应用到后台.</string>
+
+
+    <string name="num_to_run">执行任务次数</string>
+    <string name="task_interval_time">执行任务次数 : </string>
+    <string name="system_memory_cleanup">系统内存清理 ： </string>
+    <string name="check_execution_result_task">查看任务执行结果  </string>
+    <string name="execution_result_task">任务执行结果信息：  </string>
+
+    <string name="screen_off_screen_and_on_screen_test">屏幕息屏亮屏测试  </string>
+    <string name="task_interval">执行任务间隔:  </string>
+    <string name="scanning_method">扫码方式:  </string>
+
+    <string name="memory_usage_rate">内存使用率 :  </string>
+    <string name="task_execution">任务执行 :  </string>
+
+    <string name="needtoRunCount">需要执行任务次数 :  </string>
+
+
+<!--  SIM 卡  -->
+    <string name="noSIMcard">status:0 无SIM卡  </string>
+    <string name="simavailable">status:1 SIM卡就绪  </string>
+    <string name="simPINLocked">status:2 SIM卡被PIN码锁定  </string>
+    <string name="simPUKLocked">status:3 SIM卡被PUK码锁定  </string>
+    <string name="simnetLocked">status:4 SIM卡被网络锁锁定  </string>
+    <string name="simUndifind">status:5 SIM卡状态未知  </string>
+    <string name="simXXXX">XXXXXX  </string>
+
+    <string name="editext_input">请输入要操作的SAM卡  </string>
+
+
+
+
+
+    <!--   SIM卡 -->
+
+    <string name="apn_get_allapndata">获取所有APN配置  </string>
+    <string name="apn_get_default">获取默认APN配置  </string>
+    <string name="apn_add_sim1">为SIM1添加APN  </string>
+    <string name="apn_add_sim2">为SIM1添加APN  </string>
+    <string name="apn_set_defalut">设置默认APN  </string>
+    <string name="apn_clean_log">清空日志 </string>
+
+    <string name="apn_openusb_port">请先打开 USB USB口设备节点 </string>
+    <string name="apn_set_port_success">设置USB属性成功</string>
+    <string name="apn_set_port_error">设置USB属性失败 </string>
+    <string name="apn_set_node_port_error">USB 节点不合法，请先确认USB节点 </string>
+
+    <string name="apn_Indicates_read_failure_error"> 读取失败 </string>
+    <string name="apn_Indicates_read_no_more"> 没有更多数据可读取 </string>
+    <string name="apn_Indicates_read_success"> 成功读取到的数据字节数 </string>
+
+
+    <string name="lcd_tag">[LCD]</string>
+    <string name="lcd_start">开始</string>
+    <string name="lcd_end">结束</string>
+    <string name="lcd_abort_null">终止：lcd/info为空</string>
+    <string name="lcd_abort_size">终止：屏幕尺寸非法 %1$dx%2$d</string>
+    <string name="lcd_invalid_count">次数非法=%1$d</string>
+    <string name="lcd_invalid_time_ms">时间非法ms=%1$d</string>
+
+    <string name="lcd_mode_count">次数</string>
+    <string name="lcd_mode_time_ms">时间(ms)</string>
+
+    <string name="lcd_log_start_line">%1$s %2$s %3$dx%4$d %5$s=%6$d</string>
+    <string name="lcd_log_loop_line">%1$s 次数=%2$d 均值=%3$dms 失败=%4$d 返回=%5$d</string>
+    <string name="lcd_log_end_line">%1$s 总数=%2$d 成功=%3$d 失败=%4$d 均值=%5$dms 最后返回=%6$d</string>
+
+    <string name="lcd_log_ex">异常: %1$s</string>
+    <!--   ************************************************************  -->
+    <string name="action_version">版本号</string>
+    <string name="tapToScan">点击扫描</string>
+    <string name="barcodeResult">条码:</string>
+    <string name="symbology">条码类型:</string>
+    <string name="versionTitle">版本号标题</string>
+    <string name="versionPositive">关闭</string>
+    <string name="action_scanmode_to_normal">回到单次扫描模式</string>
+    <string name="action_scanmode_to_continue">回到连续扫描模式</string>
+    <string name="promptChangeScanMode">切换扫描模式成功</string>
+    <string name="configCodeType">配置码制</string>
+    <string name="switchFocusMode">切换对焦模式</string>
+
+    <string name="versionTitle1">切换对焦模式</string>
+    <string name="pressMsg">注意：重新执行最新的压力测试将会清空历史测试数据，重新记录本地测试数据~~~</string>
+    <string name="pressMsg_done">已执行任务 : </string>
+    <string name="select_sam">请选择要操作的SAM卡：</string>
+    <string name="samcard_check">检测是否有SAM卡</string>
+    <string name="samcard_poweron">SAM卡上电</string>
+    <string name="samcard_cmd">SAM卡通讯APDU指令</string>
+    <string name="samcard_poweoff">SAM卡下电</string>
+
+    <string name="usb_permision_successful">USB 临时授权成功</string>
+    <string name="usb_permision_failed">USB 临时授权失败</string>
+
+    <string name="clear_usb_permision_successful">USB 权限清除成功</string>
+    <string name="clear_usb_permision_failed">USB 权限清除失败</string>
+
+
+    <string name="pop_up_windows_successful">该应用可以访问所有USB设备，无弹窗: 成功</string>
+    <string name="pop_up_windows__failed">该应用可以访问所有USB设备，无弹窗 :失败</string>
+
+
+
+    <string name="all_pop_up_windows_successful">该应用可以访问所有USB设备，无弹窗 : 成功</string>
+    <string name="all_pop_up_windows__failed">该应用可以访问所有USB设备，无弹窗 : 失败</string>
+
+    <string name="clear_all_pop_up_windows_failed">清除该应用所有 USB 权限 :</string>
+
+    <string name="all_dangerous_permissions_success">✅ 授权成功</string>
+    <string name="all_dangerous_permissions_failed">❌ 授权失败</string>
+
+    <string name="setpoewerManager_permissions_success">设置 电源管理器授权 ： 成功</string>
+    <string name="setpoewerManager_permissions_failed">设置 电源管理器授权 ： 失败</string>
+
+    <string name="cancle_poewerManager_permissions_success"> 取消电源管理器授权 ： 成功</string>
+    <string name="cancle_poewerManager_permissions_failed">取消电源管理器授权 ： 失败</string>
+
+    <string name="Set_Remote_permissions_success"> 设置 远程控制权限授权 :  成功</string>
+    <string name="Set_Remote_permissions_failed">设置 远程控制权限授权 : 失败</string>
+
+    <string name="cancle_Remote_permissions_success"> 取消 远程控制权限授权 :  成功</string>
+    <string name="cancle_Remote_permissions_failed">取消 远程控制权限授权 : 失败</string>
+
+    <string name="Set_permanent_floating_window_permissions_success"> 设置永久悬浮窗权限 ： 成功</string>
+    <string name="Set_permanent_floating_window_permissions_failed">设置永久悬浮窗权限 ： 失败</string>
+
+    <string name="check_permissions_success"> 应用已拥有</string>
+    <string name="check_permissions_failed">应用已无</string>
+
+    <string name="ObtainAbnormalVolumeInformation">获取音量信息异常</string>
+
+    <string name="sdkServiceErrorVold">SDK 服务未连接，无法调节音量</string>
+
+    <string name="getLightError">获取亮度异常</string>
+
+
+
+
+
+
+
+    <string name="system_key_service_not_connected">系统服务未连接</string>
+    <string name="system_key_map_result">getKeyMap 返回结果：%1$s</string>
+    <string name="system_remove_key_title">删除密钥索引</string>
+    <string name="system_remove_key_message">请输入 M/S 或 DUKPT 密钥索引（2 ~ 30）。</string>
+    <string name="system_remove_key_hint">2 ~ 30</string>
+    <string name="system_remove_key_action">删除</string>
+    <string name="system_remove_key_invalid_integer">请输入 2 到 30 之间的整数</string>
+    <string name="system_remove_key_invalid_range">有效范围：2 ~ 30</string>
+    <string name="system_remove_key_request">removeKey 密钥索引：%1$d</string>
+    <string name="system_remove_key_result">removeKey 返回结果：%1$d</string>
+    <string name="system_enter_pan_test">手动输入 PAN</string>
+    <string name="system_dukpt_get_card_data_test">获取明文卡数据</string>
+    <string name="system_clear_temp_card_data_test">清除临时卡数据</string>
+    <string name="system_clear_temp_card_data_result">clearTemporaryCardData 返回结果：%1$d</string>
+    <string name="system_enter_pan_title">输入 PAN 参数</string>
+    <string name="system_enter_pan_need_expired_date">要求输入有效期（MM/YY）</string>
+    <string name="system_enter_pan_random_keyboard">随机排列屏幕数字键盘</string>
+    <string name="system_enter_pan_check_checksum">检查 PAN 校验位（Luhn）</string>
+    <string name="system_enter_pan_min_length">PAN 最小长度（12 ~ 19）</string>
+    <string name="system_enter_pan_max_length">PAN 最大长度（12 ~ 19）</string>
+    <string name="system_enter_pan_timeout">输入超时时间，单位秒（5 ~ 180）</string>
+    <string name="system_enter_pan_min_greater_than_max">PAN 最小长度不能大于最大长度</string>
+    <string name="system_enter_pan_request">enterPAN 请求：needExpiredDate=%1$b，min=%2$d，max=%3$d，timeout=%4$d 秒，randomKeyboard=%5$b，checkPanChecksum=%6$b</string>
+    <string name="system_enter_pan_result">enterPAN 返回结果：%1$d（%2$s）</string>
+    <string name="system_enter_pan_success">成功</string>
+    <string name="system_enter_pan_timed_out">输入超时</string>
+    <string name="system_enter_pan_cancelled">手动取消</string>
+    <string name="system_enter_pan_failed">失败</string>
+    <string name="system_enter_pan_unknown">未知结果</string>
+    <string name="system_dukpt_card_data_title">明文卡数据参数</string>
+    <string name="system_dukpt_card_data_type">明文卡数据类型</string>
+    <string name="system_card_data_pan">1 - PAN</string>
+    <string name="system_card_data_track2">2 - 二磁道</string>
+    <string name="system_card_data_track3">3 - 三磁道</string>
+    <string name="system_card_data_masked_pan">4 - 掩码 PAN</string>
+    <string name="system_card_data_expired_date">5 - 有效期</string>
+    <string name="system_dukpt_key_index">DUKPT 密钥索引（11 ~ 30）</string>
+    <string name="system_dukpt_key_type">DUKPT 密钥类型</string>
+    <string name="system_dukpt_key_type_pin">1 - PIN 加密</string>
+    <string name="system_dukpt_key_type_dek_both">4 - 数据加密，请求或双向</string>
+    <string name="system_dukpt_key_type_dek_resp">5 - 数据加密，响应</string>
+    <string name="system_dukpt_iv">初始向量 IV（8 字节，16 位十六进制）</string>
+    <string name="system_dukpt_iv_invalid">请输入 8 字节 IV，即 16 位十六进制字符</string>
+    <string name="system_dukpt_enc_mode">加密模式</string>
+    <string name="system_dukpt_enc_mode_des_ecb">0x11 - DES_ECB_ENC</string>
+    <string name="system_dukpt_enc_mode_des_cbc">0x21 - DES_CBC_ENC</string>
+    <string name="system_dukpt_enc_mode_tdes_ecb">0x41 - TDES_ECB_ENC</string>
+    <string name="system_dukpt_enc_mode_tdes_cbc">0x81 - TDES_CBC_ENC</string>
+    <string name="system_dukpt_padding_mode">填充模式</string>
+    <string name="system_dukpt_padding_00">1 - 填充 0x00</string>
+    <string name="system_dukpt_padding_80">2 - 填充 0x80 后补 0x00</string>
+    <string name="system_dukpt_padding_ff">3 - 填充 0xFF</string>
+    <string name="system_dukpt_padding_pkcs5">4 - PKCS5 Padding</string>
+    <string name="system_dukpt_key_offset">密钥偏移</string>
+    <string name="system_dukpt_key_offset_default">keyOffset 使用默认值 0。</string>
+    <string name="system_dukpt_masked_left_digits">掩码 PAN 左侧保留位数（0 ~ 19）</string>
+    <string name="system_dukpt_masked_right_digits">掩码 PAN 右侧保留位数（0 ~ 19）</string>
+    <string name="system_dukpt_plaintext_note">该接口仅返回掩码 PAN 或有效期明文；掩码 PAN 固定使用四个星号。</string>
+    <string name="system_dukpt_card_data_request">getPlaintextCardData 请求：dataType=%1$d，maskedLeft=%2$d，maskedRight=%3$d</string>
+    <string name="system_dukpt_card_data_result">getPlaintextCardData 返回结果/源数据长度：%1$d</string>
+    <string name="system_dukpt_encrypted_pan">加密 PAN：%1$s</string>
+    <string name="system_dukpt_masked_pan">掩码 PAN：%1$s</string>
+    <string name="system_dukpt_encrypted_track2">加密二磁道：%1$s</string>
+    <string name="system_dukpt_encrypted_track3">加密三磁道：%1$s</string>
+    <string name="system_dukpt_expired_date">有效期：%1$s</string>
+    <string name="system_invalid_integer">请输入有效整数</string>
+    <string name="system_value_range_error">有效范围：%1$d ~ %2$d</string>
+    <!-- 屏幕超时选项数组 -->
+    <string-array name="screen_timeout_entries">
+        <item>永不</item>
+        <item>15 秒</item>
+        <item>30 秒</item>
+        <item>1 分钟</item>
+        <item>2 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>30 分钟</item>
+        <!-- 👇 你自己新增的一项 -->
+        <item>自定义 1 小时</item>
+    </string-array>
+
+    <!-- 对应的值数组（和上面的选项一一对应） -->
+    <integer-array name="screen_timeout_values">
+        <item>2147483647</item> <!-- 永不，对应 Integer.MAX_VALUE -->
+        <item>15000</item>      <!-- 15 秒 -->
+        <item>30000</item>      <!-- 30 秒 -->
+        <item>60000</item>      <!-- 1 分钟 -->
+        <item>120000</item>     <!-- 2 分钟 -->
+        <item>300000</item>     <!-- 5 分钟 -->
+        <item>600000</item>     <!-- 10 分钟 -->
+        <item>1800000</item>    <!-- 30 分钟 -->
+        <item>3600000</item>    <!-- 👇 对应上面新增的 1 小时 -->
+    </integer-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

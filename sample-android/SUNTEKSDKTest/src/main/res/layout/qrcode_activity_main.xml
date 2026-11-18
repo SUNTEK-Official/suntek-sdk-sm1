@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="50dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/num_to_run"
+            android:textSize="24dp"
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/et_count_no"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="请输入执行任务次数"
+            android:textSize="24dp"
+            android:maxLines="1"
+            android:inputType="number"
+            android:gravity="center"
+            android:text="1"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/task_interval_time"
+                android:textSize="24dp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/et_interval"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="请输入间隔时间"
+                android:textSize="24dp"
+                android:maxLines="1"
+                android:inputType="number"
+                android:gravity="center"
+                android:text="1"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="S"
+                android:textSize="24dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:id="@+id/btn_checkbox"
+                android:text="@string/system_memory_cleanup"
+                android:layout_marginLeft="20dp"
+                android:textSize="24dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:text="TimeOut:"
+                android:layout_marginLeft="20dp"
+                android:textSize="24dp"
+                />
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="50dp"
+                android:id="@+id/et_timeout"
+                android:hint="Timeout period"
+                android:layout_marginLeft="20dp"
+                android:textSize="18dp"
+                android:maxLines="1"
+                android:inputType="number"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:text="S"
+                android:layout_marginLeft="20dp"
+                android:textSize="24dp"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btn_roundness_selector"
+            android:text="Zxing Scan lib"
+            android:textColor="#FFFFFF" />
+
+        <Button
+        android:id="@+id/bt_generate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate two-dimensional code"
+        android:background="@drawable/btn_roundness_selector"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/ll_count"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="number"
+            android:text="Execution times："
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            />
+
+        <EditText
+            android:id="@+id/ed_conut"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:hint="1"
+            android:inputType="number"
+            android:textAllCaps="false"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_hms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HMS QRScan"
+        android:background="@drawable/btn_roundness_selector"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_custom_hms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CUSTOM Fixed focus Camera use hw"
+        android:background="@drawable/btn_roundness_selector"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btn_backcamera_hw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CUSTOM Back camera use hw"
+        android:background="@drawable/btn_roundness_selector"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btn_frontcamera_hw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CUSTOM Front Camera use hw"
+        android:background="@drawable/btn_roundness_selector"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/check_execution_result_task"
+            android:background="@drawable/btn_roundness_selector"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_read_local"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="check run starus "
+            android:background="@drawable/btn_roundness_selector"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+
+
+    <Button
+        android:id="@+id/btn_camera_ax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CUSTOM Fixed Focus Camera use AX"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btn_backcamera_ax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CUSTOM Back Camera use AX"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btn_frontcamera_ax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CUSTOM Front Camera use AX"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/btn_scan_googlemlkit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="scan google mlkit"
+        android:visibility="gone"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_run_result"
+            android:textColor="@color/blue_af"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Result" />
+
+        <TextView
+            android:id="@+id/scan_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="XXX" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/execution_result_task" />
+
+            <TextView
+                android:id="@+id/scan_result_show"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="XXX" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/scan_framework" />
+
+        <TextView
+            android:id="@+id/scan_framework"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="XXX" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/code_format" />
+
+        <TextView
+            android:id="@+id/barcode_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="XXX" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/result_type" />
+
+        <TextView
+            android:id="@+id/barcode_type_mon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="XXX" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/result_content" />
+
+        <TextView
+            android:id="@+id/barcode_rawValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="XXX" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Run Count:" />
+
+        <TextView
+            android:id="@+id/run_count"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="XXX" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Scan Time:" />
+
+        <TextView
+            android:id="@+id/scan_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="XXX" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MS" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Open camera Time:" />
+
+            <TextView
+                android:id="@+id/opencamera_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="XXX" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="MS" />
+
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_scren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/screen_off_screen_and_on_screen_test"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="hello_world"
+        android:visibility="gone" />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

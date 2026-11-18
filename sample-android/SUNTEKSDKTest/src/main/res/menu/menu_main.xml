@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.scans.MainScansActivity">
+    <item android:id="@+id/action_version" android:title="@string/action_version"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_switchmode" android:title="Switch" android:orderInCategory="101" app:showAsAction="always"/>
+    <item android:id="@+id/action_config" android:title="@string/configCodeType" android:orderInCategory="103" app:showAsAction="always"/>
+    <!--<item android:id="@+id/action_switch_focus" android:title="@string/switchFocusMode" android:orderInCategory="104" app:showAsAction="always" />-->
+</menu>

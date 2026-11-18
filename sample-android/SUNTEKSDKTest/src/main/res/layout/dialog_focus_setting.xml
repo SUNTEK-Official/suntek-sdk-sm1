@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手动对焦设置"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- 手动对焦开关 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手动对焦"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/dialog_switch_manual_focus"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <!-- 对焦距离调节条 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/dialog_tv_focus_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="对焦距离：8cm"
+            android:textSize="14sp" />
+
+        <SeekBar
+            android:id="@+id/dialog_seekbar_focus"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:enabled="false"
+            android:max="100" />
+    </LinearLayout>
+
+</LinearLayout>
